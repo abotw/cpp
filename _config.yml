@@ -1,4 +1,4 @@
-title: 程序设计语言II (2024 Fall, HFU)
+title: 程序设计语言II
 description: UNDER CONSTRUCTION
 theme: just-the-docs
 
@@ -6,3 +6,8 @@ url: https://abotw.github.io/cpp-hfu
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  
+  
+  
+  
+favicon_ico: "/favicon.ico"
