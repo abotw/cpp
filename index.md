@@ -45,13 +45,13 @@ Dec	                   1
 
 **09.19:    C++编程基础 Part 1**
 
-讲义：[240919.lec01.C++编程基础p1.pdf](https://github.com/abotw/cpp-hfu/blob/main/lecture/240919.lec01.C%2B%2B编程基础p1.pdf)
+讲义：见群内讲义（2024 C++ 课程体系 专升本9-19.pdf）
 
 ### 第2周: 2024-09-23
 
 **09.23:    C++编程基础 Part 2**
 
-讲义：[240923.lec02.C++编程基础p2.pdf](https://github.com/abotw/cpp-hfu/blob/main/lecture/240923.lec02.C%2B%2B编程基础p2.pdf)
+讲义：见群内讲义（2024 C++ 课程体系 专升本9-23.pdf）
 
 **09.26:    ?**
 
