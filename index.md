@@ -1,9 +1,7 @@
 ---
-title: Home
+title:首页
 layout: home
 ---
-
-Wed Sep 25 21:01:23 CST 2024
 
 ## 课程安排
 
@@ -18,7 +16,7 @@ Sep	 2  3  4  5  6  7  8
 	16 17 18 <span style="background:yellow; color: red;"><b>19</b></span> 20 21 22    第1堂课
 	<span style="color: red;"><b>23</b></span> 24 25 <span style="color: red;"><b>26</b></span> 27 28 29	
 	<span style="color: red;"><b>30</b></span>
-Oct	    <span style="color: green;"><b>1  2  3  4  5  6</b></span>    国庆节
+Oct	    <span style="color: green;"><b>1  2  3  4  5  6</b></span>    国庆节假期
 	<span style="color: green;"><b> 7</b></span>  8  <span style="color: blue;"><b>9</b></span> <span style="color: red;"><b>10</b></span> 11 12 13    lab 1
 	<span style="color: red;"><b>14</b></span> 15 <span style="color: blue;"><b>16</b></span> <span style="color: red;"><b>17</b></span> 18 19 20    lab 2
 	<span style="color: red;"><b>21</b></span> 22 <span style="color: blue;"><b>23</b></span> <span style="color: red;"><b>24</b></span> 25 26 27    lab 3
@@ -29,31 +27,29 @@ Nov	             1  2  3
 	18 19 20 21 22 23 24    
 	25 26 27 28 29 30   
 Dec	                   1
-     2  3  4  5  6  7  8	
+	 2  3  4  5  6  7  8	
 	 9 10 11 12 13 14 15	
 	16 17 18 19 20 21 22
 	23 24 25 26 27 28 29
 	30 31
 </pre>
 
-
 ## 大纲
 
 ### 第1周: 2024-09-16
 
-**Sep 19, Thu:    C++编程基础 Part 1**
+**09.19:    C++编程基础 Part 1**
 
 
 
 ### 第2周: 2024-09-23
 
-**Mon, Sep 23:C++编程基础 Part 2**
-
-
-
-**Thu Sep 26:**
+**09.23:    C++编程基础 Part 2**
 
 
 
 ### 第3周: 2024-09-30
 
+---
+
+Last updated: Wed Sep 25 21:01:23 CST 2024
