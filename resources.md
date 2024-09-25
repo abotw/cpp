@@ -11,7 +11,7 @@ layout: home
 
 <div>
 	<a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_09067402.html">
-		<img src="http://www.tup.tsinghua.edu.cn/upload/bigbookimg/090674-02.jpg" height="200" border="1">
+		<img src="./assets/images/thqcpp.jpg" height="200" border="1">
 	</a>
 </div>
 
@@ -25,7 +25,9 @@ layout: home
 ## 相关文档
 
 -   斯坦福 C++ 库文档：[The Stanford libcs106 library](https://web.stanford.edu/dept/cs_edu/resources/cslib_docs/)
--   C++ 在线文档：[cplusplus.com](https://cplusplus.com/reference/)（可读性较好）| [cppreference.com](https://en.cppreference.com/w/)（内容较新）
+-   C++ 在线文档
+    -   [cplusplus.com](https://cplusplus.com/reference/)（可读性较好）
+    -   [cppreference.com](https://en.cppreference.com/w/)（内容较新）
 -   CMake 简明教程：[An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 -   编程规范：[C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 
