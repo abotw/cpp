@@ -1,0 +1,5 @@
+---
+title: Note
+layout: home
+---
+
