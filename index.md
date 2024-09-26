@@ -1,11 +1,12 @@
 ---
-title: home
+title: Home
 layout: home
 ---
 
-# 程序设计语言II (2024 Fall, HFU)
+# 程序设计语言 II (2024 Fall, HFU)
 
-教师：赵大东; 学分: 2.5
+-   教师：赵大东
+-   学分：2.5
 
 ## 教学安排
 

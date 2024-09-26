@@ -1,5 +1,5 @@
 ---
-title: textbooks
+title: Textbooks
 layout: home
 ---
 
@@ -11,8 +11,8 @@ layout: home
 	</a>
 </div>
 
--   [C++程序设计（第4版）](http://www.tup.tsinghua.edu.cn/booksCenter/book_09067402.html)，谭浩强
+-   [谭浩强.C++程序设计:第4版[M].北京:清华大学出版社,2021.](http://www.tup.tsinghua.edu.cn/booksCenter/book_09067402.html)
 
 ---
 
-Last Updated: Thu Sep 26 13:13:26 CST 2024
+Last Updated: Thu Sep 26 21:39:48 CST 2024
