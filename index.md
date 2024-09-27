@@ -3,10 +3,11 @@ title: Home
 layout: home
 ---
 
-# 程序设计语言 II (2024 Fall, HFU)
+# 程序设计语言 II (Fall 2024, HFU)
 
 -   教师：赵大东
 -   学分：2.5
+-   学期：2024年秋季学期
 
 ## 教学安排
 
@@ -20,26 +21,21 @@ layout: home
 <pre>	Mo Tu We Th Fr Sa Su
 Sep	 2  3  4  5  6  7  8	
 	 9 10 11 12 13 14 15	
-	16 17 18 <span style="background:yellow; color: red;"><b>19</b></span> 20 21 22    第1次课
-	<span style="color: red;"><b>23</b></span> 24 25 <span style="color: red;"><b>26</b></span> 27 28 29	
-	<span style="color: red;"><b>30</b></span>
+	16 17 18 <span style="background:yellow; color: red;"><b>19</b></span> 20 21 22    lec 01; 第一次课
+	<span style="color: red;"><b>23</b></span> 24 25 <span style="color: red;"><b>26</b></span> 27 28 29    lec 02, lec 03
+	<span style="color: red;"><b>30</b></span>                      lec 04
 Oct	    <span style="color: green;"><b>1  2  3  4  5  6</b></span>    国庆节假期
-	<span style="color: green;"><b> 7</b></span>  8  <span style="color: blue;"><b>9</b></span> <span style="color: red;"><b>10</b></span> 11 <span style="color: orange;"><b>12</b></span> 13    lab 1
-	<span style="color: orange;"><b>14</b></span> 15 <span style="color: blue;"><b>16</b></span> <span style="color: red;"><b>17</b></span> 18 19 20    lab 2
-	<span style="color: orange;"><b>21</b></span> 22 <span style="color: blue;"><b>23</b></span> <span style="color: red;"><b>24</b></span> 25 26 27    lab 3
-	<span style="color: orange;"><b>28</b></span> 29 <span style="color: blue;"><b>30</b></span> <span style="color: red;"><b>31</b></span>             lab 4
-Nov	             1  2  3	
-	 <span style="color: orange;"><b>4</b></span>  5  <span style="color: blue;"><b>6</b></span>  <span style="background:yellow; color: red"><b>7</b></span>  8  9 10    lab 5; 结课
-	11 12 13 14 15 16 17	
+	<span style="color: green;"><b> 7</b></span>  8  <span style="color: blue;"><b>9</b></span> <span style="color: red;"><b>10</b></span> 11 <span style="color: orange;"><b>12</b></span> 13    lec 05, lec 06; lab 1
+	<span style="color: orange;"><b>14</b></span> 15 <span style="color: blue;"><b>16</b></span> <span style="color: red;"><b>17</b></span> 18 19 20    lec 07, lec 08; lab 2
+	<span style="color: orange;"><b>21</b></span> 22 <span style="color: blue;"><b>23</b></span> <span style="color: red;"><b>24</b></span> 25 26 27    lec 09, lec 10; lab 3
+	<span style="color: orange;"><b>28</b></span> 29 <span style="color: blue;"><b>30</b></span> <span style="color: red;"><b>31</b></span>             lec 11, lec 12; lab 4
+Nov	             1  2  3    
+	 <span style="color: orange;"><b>4</b></span>  5  <span style="color: blue;"><b>6</b></span>  <span style="background:yellow; color: red"><b>7</b></span>  8  9 10    lec 13, lec 14; lab 5; 结课
+	11 12 13 14 15 16 17    
 	18 19 20 21 22 23 24    
-	25 26 27 28 29 30   
-Dec	                   1
-	 2  3  4  5  6  7  8	
-	 9 10 11 12 13 14 15	
-	16 17 18 19 20 21 22
-	23 24 25 26 27 28 29
-	30 31
+	25 26 27 28 29 30       
 </pre>
+
 
 -   **备注**
     -   <span style="color: blue;">学号编号 01-30: 于蓝色标记日期上机</span>
@@ -99,6 +95,18 @@ Dec	                   1
 
 **11.07**
 
+## 实验进度
+
+### lab 1
+
+### lab 2
+
+### lab 3
+
+### lab 4
+
+### lab 5
+
 ---
 
-Last Updated: Thu Sep 26 21:38:12 CST 2024
+Last Updated: Fri Sep 27 22:48:20 CST 2024
