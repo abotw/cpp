@@ -1,5 +1,5 @@
 ---
-title: Books
+title: Textbooks
 layout: home
 ---
 
