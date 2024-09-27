@@ -10,13 +10,13 @@ layout: home
 -   [CS106B Programming Abstractions](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/) (Fall 2024, [Stanford](https://www.stanford.edu/), Cynthia Bailey and Chris Gregg)
     -   中文改编: [CSE/CS101：C++ 编程抽象思维](https://cs101.stickmind.com/) (Spring 2023, [StickMind](https://www.stickmind.com/), [薛浩](https://blog.stickmind.com/)) 
 
--   [C++ 语言程序设计](https://math.ecnu.edu.cn/~jypan/Teaching/Cpp/) (Fall 2024, [华东师范大学](https://ecnu.edu.cn/), [潘建瑜](https://math.ecnu.edu.cn/~jypan/))
+-   [C++ 语言程序设计](https://math.ecnu.edu.cn/~jypan/Teaching/Cpp/) (Fall 2024, [华东师范大学](https://www.ecnu.edu.cn/), [潘建瑜](https://math.ecnu.edu.cn/~jypan/))
 
 ## 2. 其他
 
 ### 2.0 编程规范
 
--   [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+-   [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) by [Bjarne Stroustrup](http://www.stroustrup.com/) and [Herb Sutter](http://herbsutter.com/)
 -   [C++ Style Guide](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/resources/style_guide.html) from CS106B
 
 ### 2.1 在线文档
@@ -27,8 +27,8 @@ layout: home
 
 ### 2.2 环境编译
 
--   [Resources for Qt Creator](https://web.stanford.edu/dept/cs_edu/resources/qt/) from CS106B
 -   CMake 简明教程: [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+-   [Resources for Qt Creator](https://web.stanford.edu/dept/cs_edu/resources/qt/) from CS106B
 
 ### 2.3 知识迁移
 
