@@ -3,7 +3,9 @@ title: Textbooks
 layout: home
 ---
 
-# 参考教材
+# 教材
+
+## 课程教材
 
 -   [谭浩强.C++程序设计:第4版[M].北京:清华大学出版社,2021.](http://www.tup.tsinghua.edu.cn/booksCenter/book_09067402.html)
 
@@ -12,7 +14,7 @@ layout: home
 		<img src="./assets/images/thqcpp.jpg" style="height: 200px;" border="1">
 	</a>
 </div>
----
+## 其他教材
 
 -   [Eric S. Roberts.Programming Abstractions in C++[M].](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/resources/textbook.html)
 
@@ -30,4 +32,4 @@ layout: home
 
 ---
 
-Last Updated: Fri Sep 27 22:55:40 CST 2024
+Last Updated: Fri Sep 27 23:00:06 CST 2024
