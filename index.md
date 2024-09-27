@@ -21,7 +21,7 @@ layout: home
 <pre>	Mo Tu We Th Fr Sa Su
 Sep	 2  3  4  5  6  7  8	
 	 9 10 11 12 13 14 15	
-	16 17 18 <span style="background:yellow; color: red;"><b>19</b></span> 20 21 22    lec 01; 第一次课
+	16 17 18 <span style="background:yellow; color: red;"><b>19</b></span> 20 21 22    lec 01; 第1次课
 	<span style="color: red;"><b>23</b></span> 24 25 <span style="color: red;"><b>26</b></span> 27 28 29    lec 02, lec 03
 	<span style="color: red;"><b>30</b></span>                      lec 04
 Oct	    <span style="color: green;"><b>1  2  3  4  5  6</b></span>    国庆节假期
