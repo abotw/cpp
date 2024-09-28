@@ -7,11 +7,13 @@ math: katex
 Last Updated: Sat Sep 28 14:30:38 CST 2024
 
 {: .warning-title }
-> 提交时间
+> 截止时间
 > 
 > Due by 11:59 PM on Monday, October 7.
 > 
 > 实验报告的提交截止时间是：10.07 11.59 PM (周一)。
+> 
+> 📝 备注：国庆假期导致学号编号 01-30 的同学缺了一次 10.02 (周三) 的上机课，故 Lab 1 比较特殊，全体同学的实验报告提交截止时间均一致。而剩下 5个 Lab 的截止时间则根据上机时间确定，每次都有 7 天时间来完成并提交。
 
 # Lab 1: C++语法基础
 {: .no_toc }
@@ -23,7 +25,7 @@ Last Updated: Sat Sep 28 14:30:38 CST 2024
 {:toc}
 
 ## 实验内容
-### Q1: Prime and Semiprime Numbers, 素数和半素数 (5分)
+### Q1: Prime and Semiprime Numbers, 素数和半素数 (4分)
 
 {: .note-title }
 > 命名规范
