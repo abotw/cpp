@@ -7,7 +7,8 @@ math: katex
 Last Updated: Sat Sep 28 14:30:38 CST 2024
 
 {: .warning }
-> 实验报告的提交截止时间：10.07 23:59
+> Due by 11:59 PM on Monday, October 7.
+> 实验报告的提交截止时间：10.07 11.59 PM
 
 # Lab 1: C++语法基础
 {: .no_toc }
@@ -18,7 +19,8 @@ Last Updated: Sat Sep 28 14:30:38 CST 2024
 1. TOC
 {:toc}
 
-## Q1: Prime and Semiprime Numbers, 素数和半素数
+## 实验内容
+### Q1: Prime and Semiprime Numbers, 素数和半素数 (5分)
 
 半素数是指可以表达成两个素数乘积的正整数，例如：$$4=2\times2$$，$$6=2\times3$$，$$35=5\times7$$ 等等。
 
@@ -49,7 +51,13 @@ Last Updated: Sat Sep 28 14:30:38 CST 2024
 15
 ```
 
-## Q2: Abundant, Perfect and Deficient Numbers, 过剩数、完美数和不足数
+### Q2: Abundant, Perfect and Deficient Numbers, 过剩数、完美数和不足数 (5分)
+
+{: .note-title }
+> 命名规范
+>
+> 程序取名 hw05_07.cpp
+
 
 写一个程序计算在区间 $$[a,b]$$ 里（包括 $$a$$，$$b$$）有多少个 abundant 数、完美（perfect）数及 deficient 数。对于整数 $$n$$，先计算所有 $$n$$ 的因子的和。若这个和比 $$2n$$ 大，则 $$n$$ 为 abundant 数；等于的话称为完美数；小于则为 deficient 数。例如：
 - $$7$$ 是 deficient 数，因为 $$7+1=8<14$$；
@@ -106,3 +114,7 @@ Perfect: 0
 Deficient: 76
 200 1
 ```
+
+## 实验报告提交
+
+1. QQ 群的群文件内有 Lab 1 的实验报告模版，命名格式为 `学号-姓名-程序设计语言Ⅱ-实验报告-第一次.doc`。如果你的学号是 `24302081100`，姓名是 `龙傲天`，则应该命名为 `24302081100-龙傲天-程序设计语言Ⅱ-实验报告-第一次.doc`，请记得修改。
