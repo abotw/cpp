@@ -7,9 +7,7 @@ math: katex
 Last Updated: Sat Sep 28 14:30:38 CST 2024
 
 {: .warning }
-
--   <span style="background: #CCFF99;">学号编号 01-55: due 10.07 23:59</span>
--   <span style="background: #CCFFFF;">学号编号 31-55: due 10.07 23:59</span>
+> 学号编号 01-55: due 10.07 23:59
 
 # Lab 1: C++语法基础
 {: .no_toc }
