@@ -17,6 +17,9 @@ back_to_top_text: "回到顶部"
 
 callouts:
   warning:
-    title: Warning
+    title: 重要
     color: red
+  note:
+    title: 提醒
+    color: green
 
