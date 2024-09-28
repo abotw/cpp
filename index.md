@@ -37,10 +37,9 @@ Nov	             1  2  3
 	25 26 27 28 29 30       
 </pre>
 
-
 -   **备注**
-    -   <span style="background: #CCFFFF;">学号编号 01-30: 于绿色背景标记日期上机</span>
-    -   <span style="background: #CCFF99;">学号编号 31-55: 于蓝色背景标记日期上机</span>
+    -   <span style="background: #CCFF99;">学号编号 01-30: 于绿色背景标记日期上机</span>
+    -   <span style="background: #CCFFFF;">学号编号 31-55: 于蓝色背景标记日期上机</span>
 
 ## 课程进度
 
