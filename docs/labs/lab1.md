@@ -8,6 +8,8 @@ Last Updated: Sat Sep 28 14:00:27 CST 2024
 
 # Lab 1: C++语法基础
 
+{:toc}
+
 ## Q1: Prime and Semiprime Numbers, 素数和半素数
 
 半素数是指可以表达成两个素数乘积的正整数，例如：$4=2\times2$，$6=2\times3$，$35=5\times7$ 等等。
