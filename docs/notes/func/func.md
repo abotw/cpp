@@ -1,7 +1,7 @@
 ---
-title: Functions
+title: “Functions, 函数”
 layout: home
-parent: Note
+parent: Notes
 ---
 
 # Functions, 函数
