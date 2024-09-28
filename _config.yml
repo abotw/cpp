@@ -14,3 +14,8 @@ math: katex
 
 back_to_top: true
 back_to_top_text: "回到顶部"
+
+callouts:
+  warning:
+    title: Warning
+    color: red
