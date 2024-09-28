@@ -7,8 +7,6 @@ math: katex
 Last Updated: Sat Sep 28 14:00:27 CST 2024
 
 # Lab 1: C++语法基础
-
-# In-Page Navigation
 {: .no_toc }
 
 ## Table of Contents

@@ -11,3 +11,6 @@ aux_links:
 favicon_ico: "/favicon.ico"
 
 math: katex
+
+back_to_top: true
+back_to_top_text: "回到顶部"
