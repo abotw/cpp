@@ -1,7 +1,7 @@
 ---
-title: Lab 4
+title: "Lab 4: XXX"
 layout: home
 parent: Labs
 ---
 
-# Lab 4
+# Lab 4: XXX

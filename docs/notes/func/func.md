@@ -1,5 +1,5 @@
 ---
-title: "Functions: 函数"
+title: Functions, 函数
 layout: home
 parent: Notes
 ---
