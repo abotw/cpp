@@ -4,7 +4,7 @@ layout: home
 parent: Labs
 math: katex
 ---
-Last Updated: Sat Sep 28 14:30:38 CST 2024
+Last Updated: Sat Sep 28 18:07:14 CST 2024
 
 {: .warning-title }
 > 截止时间
@@ -127,19 +127,22 @@ Deficient: 76
 
 ## 提交说明
 
+{: .warning }
+> 请在指定截止时间前提交，过期链接会失效！
+
 ### 1. 实验报告
 
-1. 请打开[实验报告提交链接](https://znas.cn/AppH5/share/collection?code=dXSEbu4VuyyAHjGMBTKPCTm2PHlWDzaGhvO6TcGXu0vPF1tBCSwJaY45gBm1QPBQPF&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)，点击“选择电脑中的文件”（请在指定截止时间前提交，过期链接会失效！）
-2. 选择好后，请点击上传，显示“已完成”，则代表上传成功。
+1. 请打开[实验报告提交链接](https://znas.cn/AppH5/share/collection?code=dXSEbu4VuyyAHjGMBTKPCXm1m1iwKSNcVw84EjDExqUbLdyTx5bSjudfZgc5KP5czF&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)，点击“选择电脑中的文件”
+2. 选择好后，请点击上传，若显示“已完成”，则代表提交成功
 
-{: .warning-title }
-> QQ 群的群文件内有 Lab 1 的实验报告模版，命名格式为 `学号-姓名-程序设计语言Ⅱ-实验报告-第一次.doc`。如果你的学号是 `24302081100`，姓名是 `龙傲天`，则应该命名为 `24302081100-龙傲天-程序设计语言Ⅱ-实验报告-第一次.doc`，请记得修改。实验报告的命名占 0.5 分。
+{: .warning }
+> QQ 群的群文件内有 Lab 1 的实验报告模版，命名格式为 `学号-姓名-程序设计语言Ⅱ-实验报告-第一次.doc`。如果你的学号是 `24302081100`，姓名是 `龙傲天`，则应该命名为 `24302081100-龙傲天-程序设计语言Ⅱ-实验报告-第一次.doc`，请记得修改，实验报告的命名本次占 0.5 分。
 
 ### 2. 程序代码
 
-1. 请打开[程序代码提交链接](https://znas.cn/AppH5/share/collection?code=dXSEbu4VuyyAHjGMBTKPCbvoQPJSDm1vVaSitgz2OiUg0nYQ5Frw6E27Hm3CfhtQo9&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)，输入学号后，点击“选择电脑中的文件”（请在指定截止时间前提交，过期链接会失效！）
-2. 请选择 `prime_semiprime.cpp` 和 `number_classification.cpp` 这 2 个文件
-3. 选择好后，请点击上传，显示“已完成”，则代表上传成功。
+1. 请打开[程序代码提交链接](https://znas.cn/AppH5/share/collection?code=dXSEbu4VuyyAHjGMBTKPCbvoQPJSDm1vVaSitgz2OiUg0nYQ5Frw6E27Hm3CfhtQo9&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)，输入学号后，点击“选择电脑中的文件”
+2. 请选择 `prime_semiprime.cpp` 和 `number_classification.cpp` 这 2 个文件（注意命名规范！错误的命名可能会导致无法通过测试用例）
+3. 选择好后，请点击上传，若显示“已完成”，则代表上传成功。
 
 ## 评分标准 (暂行)
 
@@ -151,4 +154,4 @@ Deficient: 76
 		- 注意：请在报告中准确填写你的姓名、学号，并注意排版，否则可能会影响你的分数。
 	- 实验报告的内容: 1 分
 		- 注意：实验报告中的图片，请用电脑截图而非手机拍照，拍照可能会影响你的分数。
-- Q1 和 Q2 均会设置 3 个测试用例，每个测试用例占该题目分值的 30%，剩下 10% 的分数主要根据代码风格以及命名规范等。
+- Q1 和 Q2 均会设置 3 个测试用例，每个测试用例占该题目分值的 30%，剩下 10% 主要根据代码风格以及命名规范进行打分。
