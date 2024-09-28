@@ -7,9 +7,7 @@ math: katex
 Last Updated: Sat Sep 28 14:30:38 CST 2024
 
 {: .warning }
-> 提醒
-> 
-> 提交实验报告的截止时间：10.07 23:59
+> 实验报告的提交截止时间：10.07 23:59
 
 # Lab 1: C++语法基础
 {: .no_toc }
