@@ -1,5 +1,5 @@
 ---
-title: Lab 4: XX
+title: Lab 4
 layout: home
 parent: Labs
 ---
