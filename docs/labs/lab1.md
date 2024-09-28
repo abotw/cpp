@@ -15,7 +15,7 @@ Last Updated: Sat Sep 28 18:07:14 CST 2024
 > 
 > 📝 备注：国庆假期导致学号编号 01-30 的同学缺了一次 10.02 (周三) 的上机课，故 Lab 1 比较特殊，全体同学的实验报告提交截止时间均一致。而剩下 5 个 Lab 的截止时间则根据上机时间确定，每次都有 7 天时间来完成并提交。
 
-# Lab 1: C++语法基础 (报告模版下载)
+# Lab 1: C++语法基础 ([报告模版下载](https://github.com/abotw/cpp-hfu/raw/refs/heads/main/docs/labs/template/%E5%AD%A6%E5%8F%B7-%E5%A7%93%E5%90%8D-%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%E2%85%A1-%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-%E7%AC%AC%E4%B8%80%E6%AC%A1.doc))
 {: .no_toc }
 
 ## Table of Contents
