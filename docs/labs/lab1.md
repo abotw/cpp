@@ -8,6 +8,7 @@ Last Updated: Sat Sep 28 14:30:38 CST 2024
 
 {: .warning }
 > Due by 11:59 PM on Monday, October 7.
+> 
 > 实验报告的提交截止时间：10.07 11.59 PM
 
 # Lab 1: C++语法基础
@@ -53,7 +54,7 @@ Last Updated: Sat Sep 28 14:30:38 CST 2024
 
 ### Q2: Abundant, Perfect and Deficient Numbers, 过剩数、完美数和不足数 (5分)
 
-{: .note-title }
+{: .note }
 > 命名规范
 >
 > 程序取名 hw05_07.cpp
