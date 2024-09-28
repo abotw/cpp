@@ -9,4 +9,6 @@ do
   echo "layout: home" >> lab$i.md
   echo "parent: Labs" >> lab$i.md
   echo "---" >> lab$i.md
+  echo "" >> lab$i.md
+  echo "# Lab $i" >> lab$i.md
 done
