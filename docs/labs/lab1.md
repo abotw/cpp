@@ -38,7 +38,7 @@ Sat Sep 28 13:21:03 CST 2024
 15
 ```
 
-## 2. Abundant, perfect and deficient numbers 过剩数、完美数和不足数
+## 2. Abundant, perfect and deficient numbers, 过剩数、完美数和不足数
 
 写一个程序计算在区间 $[a,b]$ 里（包括 $a$，$b$）有多少个 abundant 数、完美（perfect）数及 deficient 数。对于整数 $n$，先计算所有 $n$ 的因子的和。若这个和比 $2n$ 大，则 $n$ 为 abundant 数；等于的话称为完美数；小于则为 deficient 数。例如：
 - $7$ 是 deficient 数，因为 $7+1=8<14$；

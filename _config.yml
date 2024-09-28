@@ -10,7 +10,4 @@ aux_links:
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/favicon.ico"
 
-callouts:
-  warning:
-    title: new
-    color: green
+math: katex
