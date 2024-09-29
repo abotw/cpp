@@ -19,5 +19,5 @@ Sun Sep 29 13:11:15 CST 2024
 举例来说，要使用 C++17 标准进行编译，可以输入以下命令：
 
 ```bash
-g++ -std=c++17 your_program.cpp -o your_program
+$ g++ -std=c++17 your_program.cpp -o your_program
 ```
