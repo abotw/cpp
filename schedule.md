@@ -2,8 +2,8 @@
 title: Schedule
 layout: home
 ---
-Last Updated: Mon Sep 30 23:40:34 CST 2024
 # 学期日程
+
 
 <pre>	Mo Tu We Th Fr Sa Su
 Sep	 2  3  4  5  6  7  8	
@@ -26,3 +26,7 @@ Nov	             1  2  3
 - **上机日期**
 	- <span style="background: #CCFF99;">学号编号 01-30: 绿色背景日期上机</span>
 	- <span style="background: #CCFFFF;">学号编号 31-55: 蓝色背景日期上机</span>
+
+---
+
+Last Updated: Mon Sep 30 23:40:34 CST 2024
