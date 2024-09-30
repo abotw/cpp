@@ -2,8 +2,7 @@
 title: 课程教材
 layout: home
 ---
-
-# 教材
+# Textbooks, 教材
 
 ## 课程教材
 

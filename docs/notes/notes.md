@@ -1,8 +1,11 @@
 ---
-title: Notes
+title: 课程笔记
 layout: home
 ---
+# Notes, 课程笔记
 
-# Notes
+努力建设中 ʕ •ᴥ•ʔ
 
-Last Updated: Sat Sep 28 10:25:46 CST 2024
+---
+
+Last Updated: Mon Sep 30 23:56:20 CST 2024

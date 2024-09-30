@@ -2,9 +2,7 @@
 title: 课程资源
 layout: home
 ---
-Last Updated: Sat Sep 28 10:56:53 CST 2024
-
-# 资源
+# Resources, 课程资源
 
 ## 0. Cheatsheets, 速查卡
 
@@ -44,3 +42,7 @@ Last Updated: Sat Sep 28 10:56:53 CST 2024
 ### 2.3 Knowledge Migration, 知识迁移
 
 -   [Python to C++ Guide](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/resources/python_to_cpp.html) from CS106B
+
+---
+
+Last Updated: Mon Sep 30 23:56:20 CST 2024

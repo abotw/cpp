@@ -2,7 +2,7 @@
 title: 学期日程
 layout: home
 ---
-# 学期日程
+# Schedule, 学期日程
 
 ---
 
