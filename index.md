@@ -1,5 +1,5 @@
 ---
-title: Home
+title: 课程主页
 layout: home
 ---
 Last Updated: Sat Sep 28 11:06:12 CST 2024
@@ -16,7 +16,6 @@ Last Updated: Sat Sep 28 11:06:12 CST 2024
   <dt>学期</dt>
   <dd>2024年秋季学期</dd>
 </dl>
-
 ## 时间地点
 
 - 理论 (3-10周)
@@ -25,14 +24,14 @@ Last Updated: Sat Sep 28 11:06:12 CST 2024
 - 实验 (5-10周)
 	- 学号编号 01-30: Wed 16:00 p.m. - 17:40 p.m. in 36-408 (每周三)
 	- 学号编号 31-55: Mon 10:20 a.m. - 12:00 p.m. in 36-403 (每周一)
-
 # 课程通知
 
 {: .new-title }
-> Lab 1 通知
+> Lab 1 发布通知
 > 
-> test
-
+> Lab 1 已经发布，请大家及时在 [Lab 1: C++语法基础](https://abotw.github.io/cpp-hfu/docs/labs/lab1.html) 中查看。
+> 
+> 祝大家国庆节快乐！不要忘记完成作业哦~ ^_^
 
 ## 课程进度
 

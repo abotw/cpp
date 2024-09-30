@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: 课程资源
 layout: home
 ---
 Last Updated: Sat Sep 28 10:56:53 CST 2024

@@ -1,9 +1,10 @@
 ---
-title: Schedule
+title: 学期日程
 layout: home
 ---
 # 学期日程
 
+---
 
 <pre>	Mo Tu We Th Fr Sa Su
 Sep	 2  3  4  5  6  7  8	
