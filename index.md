@@ -2,8 +2,6 @@
 title: 课程主页
 layout: home
 ---
-Last Updated: Sat Sep 28 11:06:12 CST 2024
-
 # 《程序设计语言 II》 (2024年秋季学期, 合肥大学)
 
 ## 基本信息
@@ -24,10 +22,10 @@ Last Updated: Sat Sep 28 11:06:12 CST 2024
 - 实验 (5-10周)
 	- 学号编号 01-30: Wed 16:00 p.m. - 17:40 p.m. in 36-408 (每周三)
 	- 学号编号 31-55: Mon 10:20 a.m. - 12:00 p.m. in 36-403 (每周一)
-# 课程通知
+## 课程通知
 
 {: .new-title }
-> Lab 1 发布通知
+> 第3周课程通知 (10.01)
 > 
 > Lab 1 已经发布，请大家及时在 [Lab 1: C++语法基础](https://abotw.github.io/cpp-hfu/docs/labs/lab1.html) 中查看。
 > 
@@ -56,3 +54,7 @@ Last Updated: Sat Sep 28 11:06:12 CST 2024
 > 知识产权
 > 
 > 考虑到知识产权的问题，不会在此提供大东老师课堂讲义的下载链接，仅提供对应课次的讲义名称，方便大家在 QQ 群内自行检索、下载。
+
+---
+
+Last Updated: Mon Sep 30 23:49:23 CST 2024
