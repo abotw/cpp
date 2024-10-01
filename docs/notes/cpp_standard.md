@@ -1,7 +1,7 @@
 ---
 title: "Q&A: 编译时如何指定C++标准版本？"
 layout: home
-parent: Q&A
+parent: Notes
 ---
 Sun Sep 29 13:11:15 CST 2024
 # Q&A: 编译时如何指定C++标准版本？

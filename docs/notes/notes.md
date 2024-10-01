@@ -1,5 +1,5 @@
 ---
-title: 课程笔记
+title: Notes
 layout: home
 ---
 # Notes, 课程笔记
