@@ -33,11 +33,9 @@ layout: home
 > 祝大家国庆节快乐！不要忘记完成作业哦~ ^_^
 
 LAB
-{: .label .label-red }
-Released:  [Lab 1: C++语法基础](https://abotw.github.io/cpp-hfu/docs/labs/lab1.html)
+{: .label .label-red } Released:  [Lab 1: C++语法基础](https://abotw.github.io/cpp-hfu/docs/labs/lab1.html)
 
-DUE
-{: .label .label-yellow }
+DUE {: .label .label-yellow }
 10.07
 
 ## 教学安排
