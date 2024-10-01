@@ -22,6 +22,8 @@ layout: home
 > 
 > Lab 1 已经发布，请大家及时在 [Lab 1: C++语法基础](https://abotw.github.io/cpp-hfu/docs/labs/lab1.html) (https://abotw.github.io/cpp-hfu/docs/labs/lab1.html) 中查看。
 > 
+> DUE {: .label .label-yellow} 10.07
+> 
 > 祝大家国庆节快乐！不要忘记完成作业哦~ ^_^
 
 ## 教学安排

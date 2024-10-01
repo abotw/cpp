@@ -25,8 +25,8 @@ Nov	             1  2  3
 </pre>
 
 - **上机日期**
-	- <span style="background: #CCFF99;">学号编号 01-30: 绿色背景日期上机</span>
-	- <span style="background: #CCFFFF;">学号编号 31-55: 蓝色背景日期上机</span>
+	- <span style="background: #CCFF99;">学号 01-30: 绿色背景日期上机</span>
+	- <span style="background: #CCFFFF;">学号 31-55: 蓝色背景日期上机</span>
 
 ---
 
