@@ -1,5 +1,5 @@
 ---
-title: 课程资源
+title: Resources
 layout: home
 ---
 # Resources, 课程资源

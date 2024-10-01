@@ -26,7 +26,7 @@ layout: home
 
 ## 最新通知
 
-{: .new-title }
+{: .warning-title }
 > 第 3 周课程通知 (09.30)
 > 
 > Lab 1 已经发布，请大家及时在 [Lab 1: C++语法基础](https://abotw.github.io/cpp-hfu/docs/labs/lab1.html) (https://abotw.github.io/cpp-hfu/docs/labs/lab1.html) 中查看。
