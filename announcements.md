@@ -4,6 +4,8 @@ layout: home
 ---
 # Announcements, 课程通知
 
+---
+
 {: .new-title }
 > 第 3 周课程通知 (09.30)
 > 
