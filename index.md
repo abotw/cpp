@@ -7,6 +7,8 @@ layout: home
 ## 基本信息
 
 <dl>
+  <dt>名称</dt>
+  <dd>程序设计语言 II</dd>
   <dt>主讲</dt>
   <dd>赵大东</dd>
   <dt>学分</dt>
