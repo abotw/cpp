@@ -4,8 +4,6 @@ layout: home
 parent: Labs
 math: katex
 ---
-Last Updated: Sat Sep 28 20:08:21 CST 2024
-
 {: .warning-title }
 > 截止时间
 > 
@@ -155,3 +153,7 @@ Deficient: 76
 	- 实验报告的内容: 1 分
 		- 注意：实验报告中的图片，请用电脑截图而非手机拍照，拍照可能会影响你的分数。
 - Q1、Q2 均会设置 3 个测试用例，每个测试用例占该题目分值的 30% (在 Lab 1 中，即 1.2 分)，剩下 10% (0.4 分) 主要根据代码风格以及命名规范进行给分。
+
+---
+
+Last Updated: Sat Sep 28 20:08:21 CST 2024

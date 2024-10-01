@@ -3,7 +3,6 @@ title: "Q&A: 编译时如何指定C++标准版本？"
 layout: home
 parent: Notes
 ---
-Sun Sep 29 13:11:15 CST 2024
 # Q&A: 编译时如何指定C++标准版本？
 
 在使用 `g++` 编译 C++ 代码时，可以通过指定编译标志来选择所需的 C++ 标准版本。具体来说，可以使用 `-std=c++XX` 这样的选项，其中 `XX` 表示 C++ 标准的版本号。例如：
@@ -21,3 +20,7 @@ Sun Sep 29 13:11:15 CST 2024
 ```bash
 $ g++ -std=c++17 your_program.cpp -o your_program
 ```
+
+---
+
+Last Updated: Sun Sep 29 13:11:15 CST 2024

@@ -4,8 +4,6 @@ layout: home
 parent: Labs
 math: katex
 ---
-Last Updated: Sat Sep 28 18:07:24 CST 2024
-
 # Lab 0: 配置 C++ 开发环境
 
 - [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/) (Windows)
@@ -16,3 +14,7 @@ Last Updated: Sat Sep 28 18:07:24 CST 2024
 - [Visual Studio](https://visualstudio.microsoft.com/zh-hans/) (Windows & macOS)
 
 对工具软件感兴趣的同学，更多资料可以参考：[https://oi-wiki.org/tools/](https://oi-wiki.org/tools/)。
+
+---
+
+Last Updated: Tue Oct  1 09:38:07 CST 2024
