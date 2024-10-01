@@ -6,4 +6,5 @@ layout: home
 
 Last Updated: Mon Sep 30 23:56:20 CST 2024
 
-努力建设中 ʕ •ᴥ•ʔ
+{: .new}
+> 努力建设中 ʕ •ᴥ•ʔ
