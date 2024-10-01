@@ -1,7 +1,7 @@
 ---
 title: "Lab 0: 配置 C++ 开发环境"
 layout: home
-parent: 课程实验
+parent: Labs
 math: katex
 ---
 Last Updated: Sat Sep 28 18:07:24 CST 2024

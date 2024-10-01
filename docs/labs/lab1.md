@@ -1,7 +1,7 @@
 ---
 title: "Lab 1: C++语法基础"
 layout: home
-parent: 课程实验
+parent: Labs
 math: katex
 ---
 Last Updated: Sat Sep 28 20:08:21 CST 2024

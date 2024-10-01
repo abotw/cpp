@@ -1,5 +1,5 @@
 ---
-title: 课程实验
+title: Labs
 layout: home
 ---
 # Labs, 课程实验
