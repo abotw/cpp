@@ -1,5 +1,5 @@
 ---
-title: 学期日程
+title: Schedule
 layout: home
 ---
 # Schedule, 学期日程
@@ -30,4 +30,4 @@ Nov	             1  2  3
 
 ---
 
-Last Updated: Mon Sep 30 23:40:34 CST 2024
+Last Updated: Tue Oct  1 09:25:31 CST 2024
