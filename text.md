@@ -13,6 +13,7 @@ layout: home
 		<img src="./assets/images/thqcpp.jpg" style="height: 200px;" border="1">
 	</a>
 </div>
+
 ## 其他教材
 
 -   [Eric S. Roberts.Programming Abstractions in C++[M].](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/resources/textbook.html)
