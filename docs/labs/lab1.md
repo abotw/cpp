@@ -17,6 +17,8 @@ math: katex
 > 📝 备注
 > 
 > 国庆假期导致学号编号 01-30 的同学缺了一次 10.02 (周三) 的上机课，故 Lab 1 比较特殊，全体同学的实验报告提交截止时间均一致。而剩下 5 个 Lab 的截止时间则根据上机时间确定，每次都有 7 天时间来完成并提交。
+
+
 # Lab 1: C++语法基础 ([实验报告模版下载](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=dXSEbu4VuyyAHjGMBTKPCeksCbTCm3bm3Jki4SC3jSXvQOBiht9hHyGXvZ2y0a9xLi&mode=file&display=list))
 {: .no_toc }
 
