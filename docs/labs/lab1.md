@@ -7,12 +7,16 @@ math: katex
 {: .warning-title }
 > 截止时间
 > 
-> Due by 11:59 PM on Monday, October 7.
+> Due by 11:59 p.m. on Monday, October 7.
 > 
-> 实验报告的提交截止时间是：10.07 11:59 PM (周一)。
+> Lab 1 的实验报告、程序代码的提交截止时间是：10.07 11:59 p.m. (周一)。
 > 
-> 📝 备注：国庆假期导致学号编号 01-30 的同学缺了一次 10.02 (周三) 的上机课，故 Lab 1 比较特殊，全体同学的实验报告提交截止时间均一致。而剩下 5 个 Lab 的截止时间则根据上机时间确定，每次都有 7 天时间来完成并提交。
+> (请在指定截止时间前提交，过期提交链接会失效！)
 
+{: .highlight-title}
+> 📝 备注
+> 
+> 国庆假期导致学号编号 01-30 的同学缺了一次 10.02 (周三) 的上机课，故 Lab 1 比较特殊，全体同学的实验报告提交截止时间均一致。而剩下 5 个 Lab 的截止时间则根据上机时间确定，每次都有 7 天时间来完成并提交。
 # Lab 1: C++语法基础 ([实验报告模版下载](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=dXSEbu4VuyyAHjGMBTKPCeksCbTCm3bm3Jki4SC3jSXvQOBiht9hHyGXvZ2y0a9xLi&mode=file&display=list))
 {: .no_toc }
 
@@ -125,22 +129,23 @@ Deficient: 76
 
 ## 提交说明
 
-{: .warning }
-> 请在指定截止时间前提交，过期链接会失效！
+### 第 1 步：提交实验报告
 
-### 1. 实验报告
+1. 请打开[实验报告提交链接](https://znas.cn/AppH5/share/collection?code=dXSEbu4VuyyAHjGMBTKPCXm1m1iwKSNcVw84EjDExqUbLdyTx5bSjudfZgc5KP5czF&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)，点击“选择电脑中的文件”；
+2. 选择好后，请点击“上传”，若显示“已完成”，则表示提交成功。
 
-1. 请打开[实验报告提交链接](https://znas.cn/AppH5/share/collection?code=dXSEbu4VuyyAHjGMBTKPCXm1m1iwKSNcVw84EjDExqUbLdyTx5bSjudfZgc5KP5czF&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)，点击“选择电脑中的文件”
-2. 选择好后，请点击“上传”，若显示“已完成”，则表示提交成功
+{: .highlight-title }
+> 实验报告命名规范
+> 
+> 群文件 `lab1_cpp.zip` 里有 Lab 1 的实验报告模版，你也可以从这个页面的标题处直接下载。
+> 
+> 命名格式为 `学号-姓名-程序设计语言Ⅱ-实验报告-第一次.doc`。举个栗子，如果你的学号是 `24302081100`，姓名是 `龙傲天`，则应该命名为 `24302081100-龙傲天-程序设计语言Ⅱ-实验报告-第一次.doc`，请记得修改，实验报告的命名本次占 0.5 分。
 
-{: .warning }
-> QQ 群的群文件内有 Lab 1 的实验报告模版，命名格式为 `学号-姓名-程序设计语言Ⅱ-实验报告-第一次.doc`。如果你的学号是 `24302081100`，姓名是 `龙傲天`，则应该命名为 `24302081100-龙傲天-程序设计语言Ⅱ-实验报告-第一次.doc`，请记得修改，实验报告的命名本次占 0.5 分。
+### 第 2 步：提交程序代码
 
-### 2. 程序代码
-
-1. 请打开[程序代码提交链接](https://znas.cn/AppH5/share/collection?code=dXSEbu4VuyyAHjGMBTKPCbvoQPJSDm1vVaSitgz2OiUg0nYQ5Frw6E27Hm3CfhtQo9&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)，输入学号后，点击“选择电脑中的文件”
-2. 请选择 `prime_semiprime.cpp` 和 `number_classification.cpp` 这 2 个文件（注意命名规范，错误的命名可能会导致无法通过测试用例！）
-3. 选择好后，请点击“上传”，若显示“已完成”，则表示提交成功
+1. 请打开[程序代码提交链接](https://znas.cn/AppH5/share/collection?code=dXSEbu4VuyyAHjGMBTKPCbvoQPJSDm1vVaSitgz2OiUg0nYQ5Frw6E27Hm3CfhtQo9&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)，输入学号后，点击“选择电脑中的文件”；
+2. 请选择 `prime_semiprime.cpp` 和 `number_classification.cpp` 这 2 个文件（注意命名规范，错误的命名可能会导致无法通过测试用例！）；
+3. 选择好后，请点击“上传”，若显示“已完成”，则表示提交成功。
 
 ## 评分标准 (暂行)
 
@@ -156,4 +161,4 @@ Deficient: 76
 
 ---
 
-Last Updated: Sat Sep 28 20:08:21 CST 2024
+Last Updated: Tue Oct  1 10:17:05 CST 2024
