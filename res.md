@@ -10,7 +10,7 @@ layout: home
 - [C++ QUICK REFERENCE](https://web.pa.msu.edu/people/duxbury/courses/phy480/Cpp_refcard.pdf)
 - [C++ Reference Card](https://person.dibris.unige.it/moggi-eugenio/PG1-13/Cpp_reference.pdf)
 -  [CPP / C++ and General Programming Ref Card](https://caiorss.github.io/C-Cpp-Notes/cpp-reference-card.html)
-- [C++ Library Reference Sheet](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1174/materials/Midterm%20Reference%20Sheet.pdf)
+- [C++ Library Reference Sheet](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1194/materials/FinalReferenceSheet.pdf) from CS106B
 - [C++ Strings – A Reference](https://sites.harding.edu/fmccown/Cpp_Strings.pdf)
 
 ## 1. Courses, 相关课程
@@ -20,6 +20,7 @@ layout: home
     - 过往学期: [Summer 2023](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1238/) (Elyse Cornwall and Amrita Kaur)
 -   [CS106L Standard C++ Programming](https://web.stanford.edu/class/cs106l/) (Fall 2024, [Stanford](https://www.stanford.edu/), Jacob Roberts-Baca)
 -   [C++ 语言程序设计](https://math.ecnu.edu.cn/~jypan/Teaching/Cpp/) (Fall 2024, [华东师范大学](https://www.ecnu.edu.cn/), [潘建瑜](https://math.ecnu.edu.cn/~jypan/))
+- CS 11 ([Fall 2024](https://www.cs.tufts.edu/comp/11-2024f/), Tufts University, Megan Monroe)
 
 ## 2. Others, 其他
 
