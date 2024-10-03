@@ -15,12 +15,19 @@ layout: home
 
 ## 1. Courses, 相关课程
 
--   [CS106B Programming Abstractions](https://web.stanford.edu/class/cs106b/) (Fall 2024, [Stanford](https://www.stanford.edu/), Cynthia Bailey and Chris Gregg)
-    - 中文改编: [CSE/CS101：C++ 编程抽象思维](https://cs101.stickmind.com/) (Spring 2023, [StickMind](https://www.stickmind.com/), [薛浩](https://blog.stickmind.com/)) 
-    - 过往学期: [Summer 2023](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1238/) (Elyse Cornwall and Amrita Kaur)
--   [CS106L Standard C++ Programming](https://web.stanford.edu/class/cs106l/) (Fall 2024, [Stanford](https://www.stanford.edu/), Jacob Roberts-Baca)
--   [C++ 语言程序设计](https://math.ecnu.edu.cn/~jypan/Teaching/Cpp/) (Fall 2024, [华东师范大学](https://www.ecnu.edu.cn/), [潘建瑜](https://math.ecnu.edu.cn/~jypan/))
-- CS 11 ([Fall 2024](https://www.cs.tufts.edu/comp/11-2024f/), Tufts University, Megan Monroe)
+| Univ                                  | Num       | Name                                                               | Semester                                                                                                                     | Instructor                                                                  |
+| ------------------------------------- | --------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [Stanford](https://www.stanford.edu/) | CS106L    | [Standard C++ Programming](https://web.stanford.edu/class/cs106l/) | Fall 2024                                                                                                                    | Jacob Roberts-Baca                                                          |
+| [Stanford](https://www.stanford.edu/) | CS106B    | [Programming Abstractions](https://web.stanford.edu/class/cs106b/) | Fall 2024, <br>[Summer 2023](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1238/) (Elyse Cornwall and Amrita Kaur) | Cynthia Bailey, <br>Chris Gregg                                             |
+| /                                     | CSE/CS101 | [C++ 编程抽象思维](https://cs101.stickmind.com/)                         | Spring 2023                                                                                                                  | [薛浩](https://blog.stickmind.com/) ([StickMind](https://www.stickmind.com/)) |
+| [华东师范大学](https://www.ecnu.edu.cn/)    | /         | [C++ 语言程序设计](https://math.ecnu.edu.cn/~jypan/Teaching/Cpp/)        | Fall 2024                                                                                                                    | [潘建瑜](https://math.ecnu.edu.cn/~jypan/)                                     |
+| Tufts University                      | CS 11     | /                                                                  | [Fall 2024](https://www.cs.tufts.edu/comp/11-2024f/)                                                                         | Megan Monroe                                                                |
+
+**附：C 相关课程**
+
+| Univ                                       | Num     | Name | Semester                                                                         | Instructor                                                                                                  |
+| ------------------------------------------ | ------- | ---- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [Princeton](https://www.cs.princeton.edu/) | COS 217 | /    | [Fall 2024](https://www.cs.princeton.edu/courses/archive/fall24/cos217/info.php) | [Zak Kincaid](mailto:zkincaid@cs.princeton.edu),<br>[Christopher Moretti](mailto:cmoretti@cs.princeton.edu) |
 
 ## 2. Others, 其他
 
