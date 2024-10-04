@@ -391,6 +391,13 @@ int main()
 >
 > 输入两个字符串，验证其中一个串是否为另一个串的子串。
 
+## Readings
+
+- <https://cs102doc.stickmind.com/topic_2/string/index.html>
+- <https://cs101.stickmind.com/static_files/presentations/lect_05.pdf>
+- <https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/lectures/03-strings/>
+- <https://www.acwing.com/file_system/file/content/whole/index/content/3589702/>
+
 ---
 
 Last Updated: Fri Oct  4 14:11:04 CST 2024
