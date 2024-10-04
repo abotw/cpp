@@ -50,18 +50,31 @@ layout: home
 ### 2.1 Docs, 在线文档
 
 -   可读性好: [cplusplus.com](https://cplusplus.com/reference/)
--   内容较新: [C++ Reference](https://en.cppreference.com/w/)
+	- [C library](https://cplusplus.com/reference/clibrary/)
+-   内容较新: [C++ Reference](https://en.cppreference.com/w/) \[[中文](https://zh.cppreference.com/w/c)\]
 -   斯坦福 C++ 库文档: [The Stanford `libcs106` library, Academic Year 2024-25](https://web.stanford.edu/dept/cs_edu/resources/cslib_docs/)
 
 ### 2.2 Environment and compilation, 环境编译
 
--   CMake 简明教程: [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+-   [CMake](https://cmake.org/) 简明教程: [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 -   [Resources for Qt Creator](https://web.stanford.edu/dept/cs_edu/resources/qt/) from CS106B
+-   [MSYS2](https://www.msys2.org/): Software Distribution and Building Platform for Windows
+- Online C Compiler
+	- <https://pythontutor.com/c.html#mode=edit>
+	- <https://www.onlinegdb.com/online_c_compiler>
+- Online C++ Compiler
+	- <https://pythontutor.com/cpp.html#mode=edit>
 
 ### 2.3 Knowledge Migration, 知识迁移
 
 -   [Python to C++ Guide](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/resources/python_to_cpp.html) from CS106B
 
+### 2.4 Readings, 阅读材料
+
+- [Tiobe Programming Index](https://www.tiobe.com/tiobe-index/)
+- [C for Java Programmers](https://www.cs.cornell.edu/courses/cs4410/2008fa/cforjava.pdf)
+- [【技术杂谈】C编译体系](https://www.bilibili.com/video/BV1J14y1D7Sw/)
+
 ---
 
-Last Updated: Mon Sep 30 23:56:20 CST 2024
+Last Updated: Fri Oct  4 09:41:41 CST 2024
