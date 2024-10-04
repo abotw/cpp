@@ -1,7 +1,7 @@
 ---
 title: "Note 8: STL"
-layout: 
-parent:
+layout: home
+parent: Notes
 ---
 
 # Note 8: STL
