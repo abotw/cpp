@@ -5,6 +5,13 @@ parent: Notes
 ---
 
 # Note 8: STL
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 - Q: 为什么要用 STL (Standard Template Library)？
 - A: 为了提高编程效率。
