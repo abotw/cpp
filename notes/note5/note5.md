@@ -5,6 +5,13 @@ parent: Notes
 ---
 
 # Note 5: Strings
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## Characters & ASCII, 字符 & 美国信息交换标准代码
 
