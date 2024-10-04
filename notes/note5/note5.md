@@ -75,9 +75,10 @@ int main()
 
 ![](./attachments/cctype.png)
 
-## Character Arrays
+## Character Arrays, 字符数组
 
-- 字符串就是字符数组加上结束符 `\0`
+- 字符串结束符：`\0` 
+- 字符数组加上字符串结束符 `\0` 就是字符串
 - 字符串可以来初始化字符数组，但此时要注意，每个字符串结尾会暗含一个 `\0` 字符，因此字符数组的长度至少要比字符串的长度多 1 ！
 
 ```cpp
@@ -96,7 +97,7 @@ int main()
 }
 ```
 
-**Input & Output, 输入输出**
+### Input & Output, 输入输出
 
 ```cpp
 #include <iostream>
@@ -117,6 +118,12 @@ int main()
 
 读入一行字符串，包括空格：
 
+- `cin` 输入字符串无法输入空格
+- 那我想输入带空格的字符串怎么办？
+- 可以用 `gets()`
+- 可是 `gets()` 由于安全问题在新版C++中被移除了
+- 那可以试试 `fgets()`，但是请注意，`fgets()` 会保留行末的回车字符
+
 ```cpp
 
 #include <iostream>
@@ -136,7 +143,7 @@ int main()
 }
 ```
 
-**Character Array Operations, 字符数组操作**
+### Operations, 操作
 
 - `#include <string.h>`
 
@@ -217,9 +224,7 @@ int main()
 }
 ```
 
-### String Operations, 字符串操作
-
-**Input & Output, 输入输出**
+## Input & Output, 输入输出
 
 ```cpp
 #include <iostream>
@@ -262,6 +267,8 @@ int main()
     return 0;
 }
 ```
+
+### String Operations, 字符串操作
 
 **`str.empty()` & `str.size()`**
 
