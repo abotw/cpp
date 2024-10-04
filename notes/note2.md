@@ -1,7 +1,7 @@
 ---
 title: "Note 2: printf & If-Else-If"
 layout: 
-parent: Notes
+parent:
 ---
 
 # Note 2: printf & If-Else-If

@@ -1,7 +1,7 @@
 ---
 title: "Note 3: Loops"
 layout: 
-parent: Notes
+parent:
 ---
 
 # Note 3: Loops

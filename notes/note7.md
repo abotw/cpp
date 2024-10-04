@@ -1,7 +1,7 @@
 ---
 title: Note 7
 layout: 
-parent: Notes
+parent:
 ---
 
 # Note 7: 类、结构体、指针、引用

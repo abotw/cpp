@@ -1,7 +1,7 @@
 ---
 title: "Note 6: Functions"
 layout: 
-parent: Notes
+parent:
 ---
 
 # Note 6: Functions

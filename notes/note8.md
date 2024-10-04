@@ -1,7 +1,7 @@
 ---
 title: "Note 8:"
 layout: 
-parent: Notes
+parent:
 ---
 
 # Note 8: STL

@@ -1,7 +1,7 @@
 ---
 title: "Note 9: 位运算与常用库函数"
 layout: 
-parent: Notes
+parent:
 ---
 
 # Note 9: 位运算与常用库函数

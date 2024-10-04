@@ -1,7 +1,7 @@
 ---
 title: "Note 4: Arrays"
 layout: 
-parent: Notes
+parent:
 ---
 
 # Note 4: Arrays
