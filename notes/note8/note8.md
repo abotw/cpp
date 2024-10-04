@@ -16,7 +16,9 @@ parent: Notes
 - Q: 为什么要用 STL (Standard Template Library)？
 - A: 为了提高编程效率。
 
-## `#include <vector>`
+- 容器
+
+## `<vector>`
 
 - vector, 变长数组
 - 支持随机访问，不支持在任意位置 O(1) 插入
@@ -72,23 +74,28 @@ for (vector<int>::iterator it = a.begin(); it != a.end(); it ++)
     cout << *it << endl;
 ```
 
-## `#include <queue>`
+## `<stack>`
+
+![](./attachments/stack.png)
+
+## `<queue>`
 
 ![](./attachments/queue.png)
 
-头文件queue主要包括循环队列queue和优先队列priority_queue两个容器。
+1. 循环队列 `queue` 
+2. 优先队列 `priority_queue` 
 
-2.1 声明
+**声明**
 
 ```cpp
 queue<int> q;
-struct rec{…}; queue<rec> q;                        //结构体rec中必须定义小于号
+struct rec{…}; queue<rec> q;                        // 结构体rec中必须定义小于号
 priority_queue<int> q;                              // 大根堆
 priority_queue<int, vector<int>, greater<int>> q;   // 小根堆
 priority_queue<pair<int, int>>q;
 ```
 
-2.2 循环队列queue
+循环队列 `queue`
 
 ```cpp
 push    // 从队尾插入
@@ -97,7 +104,7 @@ front   // 返回队头元素
 back    // 返回队尾元素
 ```
 
-2.3 优先队列priority_queue
+优先队列 `priority_queue`
 
 ```cpp
 push    // 把元素插入堆
@@ -105,25 +112,9 @@ pop     // 删除堆顶元素
 top     // 查询堆顶元素（最大值）
 ```
 
-## `#include <stack>`
+## `<deque>`
 
-![](./attachments/stack.png)
-
-头文件stack包含栈。声明和前面的容器类似。
-
-```cpp
-push    // 向栈顶插入
-pop     // 弹出栈顶元素
-```
-
-## `#include <deque>`
-
-双端队列deque是一个支持在两端高效插入或删除元素的连续线性存储空间。它就像是vector和queue的结合。与vector相比，deque在头部增删元素仅需要 O(1)
-𝑂
-(
-1
-)
- 的时间；与queue相比，deque像数组一样支持随机访问。
+双端队列 `deque` 是一个支持在两端高效插入或删除元素的连续线性存储空间。它就像是 `vector` 和`queue` 的结合。与vector相比，deque在头部增删元素仅需要 O(1) 的时间；与 `queue` 相比，`deque` 像数组一样支持随机访问。
 
 ```cpp
 []              // 随机访问
@@ -136,11 +127,11 @@ pop_front       // 从队头出队
 clear           // 清空队列
 ```
 
-## `#include <set>`
+## `<set>`
 
-头文件set主要包括set和multiset两个容器，分别是“有序集合”和“有序多重集合”，即前者的元素不能重复，而后者可以包含若干个相等的元素。set和multiset的内部实现是一棵红黑树，它们支持的函数基本相同。
+头文件 `set` 主要包括 `set` 和 `multiset` 两个容器，分别是“有序集合”和“有序多重集合”，即前者的元素不能重复，而后者可以包含若干个相等的元素。`set` 和 `multiset` 的内部实现是一棵红黑树，它们支持的函数基本相同。
 
-5.1 声明
+**声明**
 
 ```cpp
 set<int> s;
@@ -148,108 +139,53 @@ struct rec{…}; set<rec> s;  // 结构体rec中必须定义小于号
 multiset<double> s;
 ```
 
-5.2 size/empty/clear
+**size/empty/clear**
+
 与vector类似
 
-5.3 迭代器
-set和multiset的迭代器称为“双向访问迭代器”，不支持“随机访问”，支持星号*解除引用，仅支持++和--两个与算术相关的操作。
+**迭代器**
+
+`set` 和 `multiset` 的迭代器称为“双向访问迭代器”，不支持“随机访问”，支持星号`*`解除引用，仅支持`++` 和 `--` 两个与算术相关的操作。
 
 设it是一个迭代器，例如 `set<int>::iterator it;`
 
-若把it ++，则it会指向“下一个”元素。这里的“下一个”元素是指在元素从小到大排序的结果中，排在it下一名的元素。同理，若把it --，则it将会指向排在“上一个”的元素。
+若把 `it ++`，则 `it` 会指向“下一个”元素。这里的“下一个”元素是指在元素从小到大排序的结果中，排在 `it` 下一名的元素。同理，若把 `it --` ，则 `it `将会指向排在“上一个”的元素。
 
-5.4 begin/end
-返回集合的首、尾迭代器，时间复杂度均为 O(1)
-𝑂
-(
-1
-)
-。
+**begin/end**
 
-s.begin()是指向集合中最小元素的迭代器。
+返回集合的首、尾迭代器，时间复杂度均为 O(1)。
 
-s.end()是指向集合中最大元素的下一个位置的迭代器。换言之，就像vector一样，是一个“前闭后开”的形式。因此-- s.end()是指向集合中最大元素的迭代器。
+`s.begin()` 是指向集合中最小元素的迭代器。
 
-5.5 insert
-s.insert(x)把一个元素x插入到集合s中，时间复杂度为 O(logn)
-𝑂
-(
-𝑙
-𝑜
-𝑔
-𝑛
-)
-。
+`s.end()` 是指向集合中最大元素的下一个位置的迭代器。换言之，就像 `vector` 一样，是一个“前闭后开”的形式。因此 `-- s.end()` 是指向集合中最大元素的迭代器。
 
-在set中，若元素已存在，则不会重复插入该元素，对集合的状态无影响。
+**insert**
+`s.insert(x)` 把一个元素 `x` 插入到集合 `s` 中，时间复杂度为 `O(logn)` 。
 
-5.6 find
-s.find(x)在集合s中查找等于x的元素，并返回指向该元素的迭代器。若不存在，则返回s.end()。时间复杂度为 O(logn)
-𝑂
-(
-𝑙
-𝑜
-𝑔
-𝑛
-)
-。
+在 `set` 中，若元素已存在，则不会重复插入该元素，对集合的状态无影响。
 
-5.7 lower_bound/upper_bound
-这两个函数的用法与find类似，但查找的条件略有不同，时间复杂度为 O(logn)
-𝑂
-(
-𝑙
-𝑜
-𝑔
-𝑛
-)
-。
+**find**
 
-s.lower_bound(x)查找大于等于x的元素中最小的一个，并返回指向该元素的迭代器。
+`s.find(x)` 在集合 `s` 中查找等于 `x` 的元素，并返回指向该元素的迭代器。若不存在，则返回 `s.end()` 。时间复杂度为 O(logn)。
 
-s.upper_bound(x)查找大于x的元素中最小的一个，并返回指向该元素的迭代器。
+5.7 `lower_bound/upper_bound`
+这两个函数的用法与 `find` 类似，但查找的条件略有不同，时间复杂度为 O(logn)。
 
-5.8 erase
-设it是一个迭代器，s.erase(it)从s中删除迭代器it指向的元素，时间复杂度为 O(logn)
-𝑂
-(
-𝑙
-𝑜
-𝑔
-𝑛
-)
-。
+`s.lower_bound(x)` 查找大于等于 `x` 的元素中最小的一个，并返回指向该元素的迭代器。
 
-设x是一个元素，s.erase(x)从s中删除所有等于x的元素，时间复杂度为 O(k+logn)
-𝑂
-(
-𝑘
-+
-𝑙
-𝑜
-𝑔
-𝑛
-)
-，其中 k
-𝑘
- 是被删除的元素个数。
+`s.upper_bound(x)` 查找大于 `x` 的元素中最小的一个，并返回指向该元素的迭代器。
 
-5.9 count
-s.count(x)返回集合s中等于x的元素个数，时间复杂度为 O(k+logn)
-𝑂
-(
-𝑘
-+
-𝑙
-𝑜
-𝑔
-𝑛
-)
-，其中 k
-𝑘
- 为元素x的个数。
+**erase**
 
-## `#include <map>`
+设 `it` 是一个迭代器，`s.erase(it)` 从 `s` 中删除迭代器it指向的元素，时间复杂度为 O(logn)。
+
+设 `x` 是一个元素，`s.erase(x)` 从 `s` 中删除所有等于 `x` 的元素，时间复杂度为 O(k+logn)，其中 `k`  是被删除的元素个数。
+
+**count**
+
+`s.count(x)` 返回集合 `s` 中等于x的元素个数，时间复杂度为 O(k+logn)，其中 `k` 为元素x的个数。
+
+## `<map>`
 
 ![](./attachments/map.png)
 
@@ -289,7 +225,7 @@ h[key]返回key映射的value的引用，时间复杂度为 O(logn)
 
 []操作符是map最吸引人的地方。我们可以很方便地通过h[key]来得到key对应的value，还可以对h[key]进行赋值操作，改变key对应的value。
 
-## grid
+## `<grid>`
 
 ![](./attachments/grid.png)
 
