@@ -6,7 +6,7 @@ parent: Notes
 
 # Streams
 
-![](stream.png)
+![](./attachments/stream.png)
 
 ## `printf`
 
@@ -74,7 +74,10 @@ int main()
 }
 ```
 
-练习：输入一个字符，用这个字符输出一个菱形。
+{: .note-title }
+> 练习
+> 
+> 输入一个字符，用这个字符输出一个菱形。
 
 ```cpp
 #include <iostream>
@@ -97,7 +100,10 @@ int main()
 }
 ```
 
-练习：输入一个整数，表示时间，单位是秒。输出一个字符串，用”时:分:秒”的形式表示这个时间。
+{: .note-title }
+> 练习
+> 
+> 输入一个整数，表示时间，单位是秒。输出一个字符串，用”时:分:秒”的形式表示这个时间。
 
 ```cpp
 #include <iostream>
@@ -141,7 +147,7 @@ int main()
 }
 ```
 
-最小数字宽度
+**最小数字宽度**
 
 `%8.3f`, 表示这个浮点数的最小宽度为 8，保留 3 位小数，当宽度不足时在前面补空格。
 
@@ -217,4 +223,5 @@ int main()
 
 ---
 
-Last Updated: Fri Oct  4 18:30:51 CST 2024
+Last Updated: Fri Oct  4 22:54:59 CST 2024
+
