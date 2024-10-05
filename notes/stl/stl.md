@@ -1,10 +1,10 @@
 ---
-title: "Note 8: STL"
+title: STL
 layout: home
 parent: Notes
 ---
 
-# Note 8: STL
+# STL
 {: .no_toc }
 
 ## Table of Contents

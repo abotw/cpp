@@ -1,10 +1,10 @@
 ---
-title: "Note 5: Strings"
+title: Strings
 layout: home
 parent: Notes
 ---
 
-# Note 5: Strings
+# Strings
 {: .no_toc }
 
 ## Table of Contents
