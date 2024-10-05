@@ -4,8 +4,6 @@ layout: home
 ---
 # Announcements, 课程通知
 
----
-
 {: .warning-title}
 > 第 3 周课程通知 (10.05)
 > 
@@ -41,4 +39,4 @@ layout: home
 
 ---
 
-Last Updated: Tue Oct  1 09:34:34 CST 2024
+Last Updated: Sat Oct  5 10:27:56 CST 2024
