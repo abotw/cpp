@@ -1,7 +1,7 @@
 ---
 title: Functions
-layout: 
-parent:
+layout: home
+parent: Notes
 ---
 
 # Functions
