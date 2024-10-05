@@ -15,7 +15,7 @@ parent: Notes
 
 ## Characters & ASCII, 字符 & 美国信息交换标准代码
 
-![](./attachments/ascii.png)
+![](ascii.png)
 
 - [ASCII](https://en.wikipedia.org/wiki/ASCII) (American Standard Code for Information Interchange)
 	- 字符与整数的联系
@@ -73,7 +73,7 @@ int main()
 
 ## `<cctype>`
 
-![](./attachments/cctype.png)
+![](cctype.png)
 
 ## Character Arrays, 字符数组
 
@@ -147,7 +147,7 @@ int main()
 
 - `#include <string.h>`
 
-![](./attachments/stringh.png)
+![](stringh.png)
 
 ```cpp
 #include <iostream>
@@ -203,7 +203,7 @@ int main()
 
 - `#include <string>`
 
-![](./attachments/stringlib.png)
+![](stringlib.png)
 
 ### String Initialization, 字符串初始化
 

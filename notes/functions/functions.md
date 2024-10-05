@@ -1,10 +1,11 @@
 ---
-title: Functions, 函数
+title: Functions
 layout: home
 parent: Notes
 ---
 
 # Functions, 函数
+
 
 -   Much like in Python, Java, Javascript, etc., C++ has functions that you can call (e.g., from a library), and that you can create yourself.
 -   Functions can also return *a single value*, however we will see how we can utilize *reference* parameters to share data between functions.

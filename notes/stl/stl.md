@@ -24,7 +24,7 @@ parent: Notes
 - 支持随机访问，不支持在任意位置 O(1) 插入
 - 为了保证效率，元素的增删一般应该在末尾进行
 
-![](./attachments/vector.png)
+![](vector.png)
 
 - `size()`, `isEmpty()`: O(1)
 - `front()`: 返回 `vector` 的第一个元素
@@ -76,11 +76,11 @@ for (vector<int>::iterator it = a.begin(); it != a.end(); it ++)
 
 ## `<stack>`
 
-![](./attachments/stack.png)
+![](stack.png)
 
 ## `<queue>`
 
-![](./attachments/queue.png)
+![](queue.png)
 
 1. 循环队列 `queue` 
 2. 优先队列 `priority_queue` 
@@ -187,7 +187,7 @@ multiset<double> s;
 
 ## `<map>`
 
-![](./attachments/map.png)
+![](map.png)
 
 map容器是一个键值对key-value的映射，其内部实现是一棵以key为关键码的红黑树。Map的key和value可以是任意类型，其中key必须定义小于号运算符。
 
@@ -227,7 +227,7 @@ h[key]返回key映射的value的引用，时间复杂度为 O(logn)
 
 ## `<grid>`
 
-![](./attachments/grid.png)
+![](grid.png)
 
 ## Readings
 
