@@ -5,6 +5,13 @@ parent: Notes
 ---
 
 # Streams, 流
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ![](./attachments/stream.png)
 
