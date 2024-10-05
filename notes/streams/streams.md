@@ -1,14 +1,32 @@
 ---
-title: Streams
+title: Streams, 流
 layout: home
 parent: Notes
 ---
 
-# Streams
+# Streams, 流
 
 ![](./attachments/stream.png)
 
-## `printf`
+## Topic 1: Formatted Output, 格式化输出
+
+```cpp
+cout << variable;
+```
+
+![](./attachments/output-manipulators.png)
+
+- `endl`: Inserts an end-of-line sequence into the output stream and ensures that the characters in the output are written to the destination stream.
+
+## Topic 2: Formatted Input, 格式化输入
+
+![](./attachments/input-manipulators.png)
+
+```cpp
+cin >> variable;
+```
+
+## Topic 3: `printf`
 
 ```cpp
 #include <iostream>
@@ -216,12 +234,13 @@ int main()
 }
 ```
 
-## Readings
+## Readings, 阅读材料
 
 - <https://www.acwing.com/file_system/file/content/whole/index/content/3587423/>
 - <https://web.stanford.edu/class/cs106l/lectures/04_Streams.pdf>
 
 ---
 
-Last Updated: Fri Oct  4 22:54:59 CST 2024
+Last Updated: Sat Oct  5 13:17:03 CST 2024
+
 
