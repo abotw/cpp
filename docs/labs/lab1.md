@@ -145,7 +145,7 @@ Deficient: 76
 
 ### 第 2 步：提交程序代码
 
-1. 请打开[程序代码提交链接](https://znas.cn/AppH5/share/collection?code=dXSEbu4VuyyAHjGMBTKPCbvoQPJSDm1vVaSitgz2OiUg0nYQ5Frw6E27Hm3CfhtQo9&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)，输入学号后，点击“选择电脑中的文件”；
+1. 请打开[程序代码提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfe1DwPMjzs9Dm1UsQOVBfGXNUhkwqOzYAGMzV0THpjGcM&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)，输入学号后，点击“选择电脑中的文件”；
 2. 请选择 `prime_semiprime.cpp` 和 `number_classification.cpp` 这 2 个文件（注意命名规范，错误的命名可能会导致无法通过测试用例！）；
 3. 选择好后，请点击“上传”，若显示“已完成”，则表示提交成功。
 
