@@ -65,6 +65,83 @@ math: katex
 15
 ```
 
+#### Solution
+
+```cpp
+/*
+ * File: prime_semiprime.cpp
+ * -------------------------
+ * This program identifies all prime and semiprime numbers up to a user-specified number N.
+ * Prime numbers are only divisible by 1 and themselves.
+ * Semiprime numbers are the product of exactly two prime numbers.
+ *
+ * 本程序用于查找所有不超过给定数字 N 的素数和半素数。
+ * 素数是只能被 1 和自身整除的数。
+ * 半素数是由恰好两个素数相乘得到的数。
+ */
+
+#include <iostream>
+using namespace std;
+
+/* Function prototypes 函数原型 */
+bool isPrime(int n);       // Checks if a number is prime 检查一个数是否为素数
+bool isSemiprime(int n);   // Checks if a number is semiprime 检查一个数是否为半素数
+
+/* Main program 主程序 */
+int main()
+{
+    // Input N 输入一个正整数 N
+    int N;
+    cin >> N;
+    
+    // Loop through numbers from 2 to N and check if they are prime or semiprime
+    // 遍历从 2 到 N 的所有数，并检查它们是否为素数或半素数
+    for (int i = 2; i <= N; i++) {
+        if (isPrime(i) || isSemiprime(i)) {
+            cout << i << endl;
+        }
+    }
+    
+    return 0;
+}
+
+/*
+ * Function: isPrime
+ * --------------------------------
+ * Returns true if the given number n is a prime number, otherwise returns false.
+ *
+ * 如果给定的数字 n 是素数，则返回 true，否则返回 false。
+ */
+bool isPrime(int n) {
+    if (n < 2) return false;  // Numbers less than 2 are not prime 小于 2 的数不是素数
+    for (int i = 2; i * i <= n; i++) { // Check divisibility up to sqrt(n) 检查从 2 到 sqrt(n) 的可整除性
+        if (n % i == 0) return false;  // If divisible, it's not a prime 如果可整除，则不是素数
+    }
+    return true;  // Otherwise, it's a prime 否则为素数
+}
+
+/*
+ * Function: isSemiprime
+ * ------------------------------------
+ * Returns true if the given number n is a semiprime number, otherwise returns false.
+ * A semiprime number is the product of two prime numbers.
+ *
+ * 如果给定的数字 n 是半素数，则返回 true，否则返回 false。
+ * 半素数是由两个素数相乘得到的数。
+ */
+bool isSemiprime(int n) {
+    for (int i = 2; i * i <= n; i++) { // Check factors up to sqrt(n) 检查从 2 到 sqrt(n) 的因数
+        if (n % i == 0) {              // If divisible, check if both factors are prime 如果可整除，检查两个因数是否为素数
+            int otherFactor = n / i;
+            if (isPrime(i) && isPrime(otherFactor)) {
+                return true;  // If both factors are prime, it's a semiprime 如果两个因数都是素数，则为半素数
+            }
+        }
+    }
+    return false;  // If no valid prime factors found, it's not a semiprime 如果未找到有效的素数因数，则不是半素数
+}
+```
+
 ### Q2: Abundant, Perfect and Deficient Numbers, 过剩数、完美数和不足数 (4分)
 
 {: .note-title }
@@ -127,6 +204,94 @@ Abundant: 24
 Perfect: 0
 Deficient: 76
 200 1
+```
+
+#### Solution
+
+```cpp
+/*
+ * File: number_classification.cpp
+ * -------------------------------
+ * This program allows the user to input a range of numbers [a, b] and classifies 
+ * the numbers in that range as Abundant, Perfect, or Deficient.
+ * 
+ * 用户可以输入一个范围 [a, b]，程序会将该范围内的数分类为过剩数、完全数或不足数。
+ */
+
+#include <iostream>
+using namespace std;
+
+/* Function prototypes 函数原型 */
+int sumOfDivisors(int n);
+void classifyNumber(int a, int b);
+
+/* Main program 主程序 */
+int main()
+{
+    int a, b;
+
+    // Input a range of numbers 输入数字范围
+    while (cin >> a >> b) {
+        if (a > b) {  // If the range is invalid (a > b), exit 如果范围无效 (a > b)，则退出
+            break;
+        }
+        classifyNumber(a, b);  // Classify numbers in the range 分类范围内的数字
+    }
+
+    return 0;
+}
+
+/*
+ * Function: sumOfDivisors
+ * -----------------------------------
+ * This function calculates the sum of all divisors of a given number n, 
+ * including n itself.
+ *
+ * 该函数计算给定数字 n 的所有因数之和，包括 n 自身。
+ */
+int sumOfDivisors(int n) {
+    int sum = 0;
+
+    // Loop through all numbers from 1 to n and sum divisors
+    // 遍历 1 到 n 的所有数，并累加因数
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0) {  // If i is a divisor of n, add it to the sum 如果 i 是 n 的因数，则加到总和中
+            sum += i;
+        }
+    }
+
+    return sum;  // Return the total sum of divisors 返回因数的总和
+}
+
+/*
+ * Function: classifyNumber
+ * ----------------------------
+ * This function classifies all numbers in the range [a, b] as Abundant, Perfect, or Deficient.
+ * It prints the count of each type of number.
+ *
+ * 该函数将范围 [a, b] 内的所有数分类为过剩数、完全数或不足数，并输出每种类型的计数。
+ */
+void classifyNumber(int a, int b) {
+    int sum = 0;  // Stores the sum of divisors for each number 存储每个数的因数之和
+    int abundantCount = 0, perfectCount = 0, deficientCount = 0;  // Counters for each number type 各种数类型的计数器
+
+    // Loop through each number in the range 遍历范围内的每个数
+    for (int i = a; i <= b; i++) {
+        sum = sumOfDivisors(i);  // Get the sum of divisors 获取因数之和
+        if (sum < i * 2) {  // Deficient number: sum of divisors is less than twice the number
+            deficientCount++;
+        } else if (sum == i * 2) {  // Perfect number: sum of divisors equals twice the number
+            perfectCount++;
+        } else {  // Abundant number: sum of divisors is greater than twice the number
+            abundantCount++;
+        }
+    }
+
+    // Output the count of each number type 输出每种数的计数
+    cout << "Abundant: " << abundantCount << endl;  // 输出过剩数的数量
+    cout << "Perfect: " << perfectCount << endl;    // 输出完全数的数量
+    cout << "Deficient: " << deficientCount << endl;  // 输出不足数的数量
+}
 ```
 
 ## 提交说明
