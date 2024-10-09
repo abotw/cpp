@@ -23,7 +23,7 @@ parent: Labs
 {:toc}
 
 ## 实验内容
-### Q1: Primes, 素数
+### Q1: Primes, 素数 (4分)
 
 {: .note-title }
 > 命名规范
@@ -45,7 +45,7 @@ parent: Labs
 ...
 ```
 
-### Q2: Goldbach's Conjecture, 哥德巴赫猜想
+### Q2: Goldbach's Conjecture, 哥德巴赫猜想 (5分)
 
 {: .note-title }
 > 命名规范
@@ -72,10 +72,18 @@ parent: Labs
 1. [【实验报告】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZffocoQw0zlIYMF4TtWtJibUzNjVGIWxqeBsfNpF28xdk&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
 2. [【程序代码】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfTlm2DUDJUC9am2XKWpASm2RxDnnqQdm2m1nGrOsVcl2QEIfa&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
 
-## 评分标准 (暂无)
+## 评分标准
+
+- Q1: 4分
+- Q2: 5分
+- 总结：1分
+	- 无字数要求，有体会就多写，没感觉就少写
+	- 但尽量不要使用空话、套话
+	- 主要可以写写自己在调试中遇到了什么问题，自己是如何解决的，或者写写优化的思路，如何改进能够提高程序的运行效率
 
 ---
 
-Last Updated: Wed Oct  9 15:30:10 CST 2024
+Last Updated: Wed Oct  9 16:23:22 CST 2024
+
 
 
