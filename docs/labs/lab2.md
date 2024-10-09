@@ -13,7 +13,7 @@ parent: Labs
 > 
 > (请在指定截止时间前提交，过期提交链接会失效！)
 
-# Lab 2: C++循环
+# Lab 2: C++循环 ([Lab2报告模版](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=6lX86Ttcl3LxvVEw0FgZfcNSnVZToI1lWy3lFdm1NcdFKuhdNrgoHKaDhkCzGHiYD&mode=file&display=list))
 {: .no_toc }
 
 ## Table of Contents
