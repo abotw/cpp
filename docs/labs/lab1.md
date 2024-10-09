@@ -65,7 +65,7 @@ math: katex
 15
 ```
 
-#### Solution
+#### Q1 Solution
 
 ```cpp
 /*
@@ -206,7 +206,7 @@ Deficient: 76
 200 1
 ```
 
-#### Solution
+#### Q2 Solution
 
 ```cpp
 /*
