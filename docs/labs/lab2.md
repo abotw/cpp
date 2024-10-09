@@ -37,7 +37,13 @@ parent: Labs
 
 #### Output
 
-每个素数输出一行。
+每个素数输出一行：
+
+```
+2
+3
+...
+```
 
 ### Q2: Goldbach's Conjecture, 哥德巴赫猜想
 
@@ -47,9 +53,9 @@ parent: Labs
 > 程序取名：`goldbach.cpp`
 
 
-验证哥德巴赫猜想，任一大于 2 的偶数都可写成两个质数之和，
+验证哥德巴赫猜想，任一大于 2 的偶数都可写成两个质数之和。
 
-通过程序在4～100内验证这个猜想，以下为程序算法。
+通过程序在4～100内验证这个猜想，以下为程序算法：
 
 ![](./attachments/lab2q2.png)
 #### Input
@@ -64,12 +70,13 @@ parent: Labs
 
 ## 提交说明
 
-1. [实验报告提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfUwm1GqCMFjSjlNj4VSFi2LnlZi9t5Vt72m13YOObQ6vm1V&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
-2. [程序代码提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfTlm2DUDJUC9am2XKWpASm2RxDnnqQdm2m1nGrOsVcl2QEIfa&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
+1. [【实验报告】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZffocoQw0zlIYMF4TtWtJibUzNjVGIWxqeBsfNpF28xdk&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
+2. [【程序代码】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfTlm2DUDJUC9am2XKWpASm2RxDnnqQdm2m1nGrOsVcl2QEIfa&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
 
 ## 评分标准 (暂无)
 
 ---
 
-Last Updated: Wed Oct  9 14:51:53 CST 2024
+Last Updated: Wed Oct  9 15:30:10 CST 2024
+
 
