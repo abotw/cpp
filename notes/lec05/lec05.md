@@ -19,20 +19,56 @@ void print(int* a);
 
 ## 2. 引用
 
-- 作用：给变量起别名（外号）
+- **作用**：给变量起别名（外号）
+- **语法**：`数据类型 &别名 = 原名`
 - 引用**必须初始化**
 - 引用在初始化后，**不可以改变**
+- 比指针更直观，可以简化思考
+
+---
 
 ```cpp
-int &b = a;
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a = 10;
+	int& b = a; // 给 a 起别名 b
+	cout << "a = " << a << endl;
+	cout << "b = " << b << endl;
+  
+	b = 100;
+	cout << "a = " << a << endl;
+	cout << "b = " << b << endl;
+  
+	return 0;
+}
 ```
+
+![](Pasted%20image%2020241011231052.png)
+
+---
 
 ```cpp
-int *
-int &
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a = 10;
+	int b = 20;
+	// int& c;     // 错误：引用必须初始化
+	int& c = a; // 引用在初始化后，不可以改变
+	c = b;
+
+	cout << "a = " << a << endl;
+	cout << "b = " << b << endl;
+	cout << "c = " << c << endl;
+  
+	return 0;
+}
 ```
 
-- 有些时候，比指针更直观，可以简化思考
+---
 
 **引用的本质**
 
