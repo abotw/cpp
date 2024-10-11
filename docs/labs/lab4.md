@@ -18,10 +18,10 @@ parent: Labs
 
 ### HW2: 
 
-## 提交说明
+## 提交链接
 
 1. [【实验报告】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfSES8ULL4r6veVm3rJvooIB2tNkcOm3m2xMy0g5Im1OsZm3iY&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
-2. [【程序代码】提交链接](#)
+2. [【程序代码】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfW4RrSIQ9vb7138Cnyb2XGv8pEv2m3kO22gd9swcEdrm3m2&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
 
 ## 评分标准 (制定中...)
 
