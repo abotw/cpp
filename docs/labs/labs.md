@@ -4,7 +4,7 @@ layout: home
 ---
 # Labs, 课程实验
 
-Last Updated: Sat Sep 28 10:11:35 CST 2024
+Last Updated: Sat Oct 12 07:37:38 CST 2024
 
 {: .warning-title}
 > 禁止抄袭
@@ -14,4 +14,4 @@ Last Updated: Sat Sep 28 10:11:35 CST 2024
 {: .warning-title}
 > 迟交惩罚
 > 
-> 迟交会扣掉 50% 的分数。
+> 迟交 -4 分。
