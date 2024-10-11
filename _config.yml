@@ -6,6 +6,7 @@ url: https://abotw.github.io/cpp-hfu
 
 aux_links:
   人大学院: https://www.hfuu.edu.cn/aibd/
+  C++ compiler: https://pythontutor.com/cpp.html#mode=edit
 
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/favicon.ico"
