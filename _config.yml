@@ -2,9 +2,10 @@ title: 程序设计语言 II
 description: UNDER CONSTRUCTION
 theme: just-the-docs
 
-url: https://abotw.github.io/cpp-hfu
+url: https://abotw.github.io/cpp
 
 aux_links:
+  Repo: https://github.com/abotw/cpp
   人大学院: https://www.hfuu.edu.cn/aibd/
   C++ compiler: https://pythontutor.com/cpp.html#mode=edit
 
