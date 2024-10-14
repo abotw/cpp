@@ -3,6 +3,14 @@ title: "Lab 3: C++类的构建"
 layout: home
 parent: Labs
 ---
+{: .warning-title }
+> 截止时间
+> 
+> Due by 11:59 p.m. on Sunday, October 20.
+> 
+> Lab 3 的实验报告、程序代码的提交截止时间是：10.20 11:59 p.m. (周日)。
+> 
+> (请在指定截止时间前提交，过期提交链接会失效！)
 
 # Lab 3: C++类的构建 ([报告模板下载](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=6lX86Ttcl3LxvVEw0FgZfQfFtDTUcn3qWBcc7uL6wLHtF17sm1dSDo6m1Hm3vCejim3m1&mode=file&display=list))
 {: .no_toc }
