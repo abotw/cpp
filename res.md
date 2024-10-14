@@ -84,7 +84,8 @@ layout: home
 - [【技术杂谈】C编译体系](https://www.bilibili.com/video/BV1J14y1D7Sw/)
 - [The Design of C](https://www.cs.columbia.edu/~sedwards/classes/2003/w4115/langdesign.9up.pdf)
 - [《C 语言程序设计》笔记](https://math.ecnu.edu.cn/~jypan/Teaching/ParaComp/main_C.pdf) by [潘建瑜](https://math.ecnu.edu.cn/~jypan/)
+- [C++ 编程指南](https://soc.ustc.edu.cn/CECS/lab2/cpp/) from [USTC CECS 2023](https://soc.ustc.edu.cn/CECS/)
 
 ---
 
-Last Updated: Fri Oct  4 10:41:28 CST 2024
+Last Updated: Mon Oct 14 13:57:52 CST 2024
