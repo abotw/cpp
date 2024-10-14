@@ -82,7 +82,7 @@ int main() {
 {: .note-title }
 > 程序文件命名规范
 >
-> 程序取名：`triangle_class.cpp.cpp`
+> 程序取名：`triangle_class.cpp`
 
 {: .note-title }
 > 成员函数命名规范
