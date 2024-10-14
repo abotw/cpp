@@ -56,7 +56,7 @@ parent: Labs
 
 通过程序在4～100内验证这个猜想，以下为程序算法：
 
-![](./attachments/lab2q2.png)
+![](lab2q2.png)
 #### Input
 
 无。
