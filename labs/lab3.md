@@ -4,7 +4,7 @@ layout: home
 parent: Labs
 ---
 
-# Lab 3: C++类的构建
+# Lab 3: C++类的构建 ([报告模板下载](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=6lX86Ttcl3LxvVEw0FgZfQfFtDTUcn3qWBcc7uL6wLHtF17sm1dSDo6m1Hm3vCejim3m1&mode=file&display=list))
 {: .no_toc }
 
 ## Table of Contents
