@@ -26,6 +26,7 @@ parent: Labs
 > 成员函数命名规范
 >
 > `Student::calculateTotalScore()` - 计算总成绩
+> 
 > `Student::calculateAverageScore()` - 计算平均成绩
 
 构建一个学生类，属性有学生的姓名、年龄、学号、数学成绩、语文成绩、物理成绩。利用成员函数求出学生总成绩，平均分并输出，构建主函数对学生类进行测试。
@@ -79,6 +80,7 @@ int main() {
 > 成员函数命名规范
 >
 > `Triangle::calculatePerimeter()` - 计算总成绩
+> 
 > `Triangle::calculateArea()` - 计算平均成绩
 
 构建一个三角形类，属性有三角形三边长，利用成员函数求出三角形的周长，面积并输出，构建主函数对三角形类进行测试。
