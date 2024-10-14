@@ -87,9 +87,9 @@ int main() {
 {: .note-title }
 > 成员函数命名规范
 >
-> `Triangle::calculatePerimeter()` - 计算总成绩
+> `Triangle::calculatePerimeter()` - 计算周长
 > 
-> `Triangle::calculateArea()` - 计算平均成绩
+> `Triangle::calculateArea()` - 计算面积
 
 构建一个三角形类，属性有三角形三边长，利用成员函数求出三角形的周长，面积并输出，构建主函数对三角形类进行测试。
 
