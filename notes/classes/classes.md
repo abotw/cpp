@@ -1,10 +1,17 @@
 ---
-title: Classes
+title: Classes, 类
 layout: home
 parent: Notes
 ---
 
-# Classes
+# Classes, 类
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## Comparing `struct` and `class`
 
