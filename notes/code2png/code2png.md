@@ -4,7 +4,7 @@ layout: home
 parent: Notes
 ---
 
-# Code to PNG Tutorial, 代码输出为PNG格式图片教程
+# Code to PNG Tutorial, 代码输出为PNG图片教程
 
 - URL: <https://carbon.now.sh/>
 
