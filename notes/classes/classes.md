@@ -8,13 +8,13 @@ parent: Notes
 
 ## Comparing `struct` and `class`
 
-![](struct+class-2.png)
+![](./attachments/struct+class-2.png)
 
 ![](struct+class-1.png)
 
 > structures which are classes **without access restrictions**;
 
-![](struct+class-3.png)
+![](./attachments/struct+class-3.png)
 
 ## `struct`s
 
@@ -37,7 +37,7 @@ s.idNumber = -123451234512345; // ?
 
 ## `class`es
 
-![](class.png)
+![](./attachments/class.png)
 
 ```cpp
 class ClassName {
