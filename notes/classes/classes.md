@@ -13,6 +13,14 @@ parent: Notes
 1. TOC
 {:toc}
 
+## Readings
+
+- Slide: <https://web.stanford.edu/class/cs106l/lectures/F2407_Classes.pdf>
+
+---
+
+- Classes allow you to encapsulate functionality and data with access protections
+
 ## Comparing `struct` and `class`
 
 ![](./attachments/struct+class-2.png)
