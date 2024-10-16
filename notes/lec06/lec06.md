@@ -1,10 +1,10 @@
 ---
-title: "Lec 06:"
+title: Lec 06
 layout: home
 parent: Notes
 ---
 
-# Lec 06:
+# Lec 06
 
 ## 1. `new` operator
 
@@ -180,7 +180,7 @@ tmp.cpp:12:12: error: expression is not assignable
 
 - 类外实现函数
 - 创建对象，本质就是声明变量，即在内存中开辟出来一些空间来存东西
-- 标准类：加入一些控制
+- **标准类**：加入一些控制，变量私有，函数公有去控制
 	- 把所有属性都设置成私有的
 	- 每个属性都对应 2 个函数
 	- 一个用来读，一个用来写，可以在里面加入一些控制
