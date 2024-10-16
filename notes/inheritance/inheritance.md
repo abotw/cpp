@@ -4,7 +4,7 @@ layout: home
 parent: Notes
 ---
 
-# Inheritance
+# Inheritance, 继承
 {: .no_toc }
 
 ## Table of Contents
