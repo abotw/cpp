@@ -133,17 +133,156 @@ StudentID::StudentID(std::string name, std::string sunet, int idNumber) {
 ### Use the this keyword
 
 ```cpp
-#include “StudentID.h”
+#include "StudentID.h"
 #include <string>
 
 StudentID::StudentID(std::string name, std::string sunet, int idNumber) {
-	this->name = name; this->state = state; this->age = age;
+	this->name = name;
+	this->state = state;
+	this->age = age;
 }
 ```
 
-- Use this **`this`** keyword to disambiguate which ‘name’ you’re referring to.
+- Use this **`this`** keyword to **disambiguate** which `name` you’re referring to.
 
----
+### List initialization constructor (C++11)
+
+```cpp
+#include "StudentID.h"
+#include <string>
+
+// list initialization constructor
+StudentID::StudentID(std::string name, std::string sunet, int idNumber): name{name}, sunet{sunet}, idNumber{idNumber} {};
+```
+
+- Recall, uniform initialization, this is similar but not quite!
+
+### Default constructor
+
+```cpp
+#include "StudentID.h"
+#include <string>
+
+// default constructor
+StudentID::StudentID() {
+	name = “John Appleseed”;
+	sunet = “jappleseed”;
+	idNumber = 00000001;
+}
+```
+
+- If we call our constructor without parameters we can set default ones!
+
+### Constructor Overload
+
+```cpp
+#include "StudentID.h"
+#include <string>
+
+// default constructor
+StudentID::StudentID() {
+	name = “John Appleseed”;
+	sunet = “jappleseed”;
+	idNumber = 00000001;
+}
+
+// parameterized constructor
+StudentID::StudentID(std::string name, std::string sunet, int idNumber) {
+	this->name = name;
+	this->state = state;
+	this->age = age;
+}
+```
+
+- Our compilers will know which one we want to use based on the inputs!
+
+### Implemented members
+
+```cpp
+#include "StudentID.h"
+#include <string>
+
+std::string StudentID::getName() {
+
+}
+
+std::string StudentID::getSunet() {
+
+}
+
+int StudentID::getID() {
+
+}
+```
+
+```cpp
+#include "StudentID.h"
+#include <string>
+
+std::string StudentID::getName() {
+	return this->name;
+}
+
+std::string StudentID::getSunet() {
+	return this->sunet;
+}
+
+int StudentID::getID() {
+	return this->idNumber;
+}
+```
+
+### Implemented members (setter functions)
+
+```cpp
+#include "StudentID.h"
+#include <string>
+
+void StudentID::setName(std::string name) {
+	this->name = name;
+}
+
+void StudentID::setSunset(std::string sunet) {
+	this->sunet = sunet;
+}
+
+void StudentID::setID(int idNumber) {
+	if (idNumber >= 0) {
+		this->idNumber = idNumber;
+	}
+}
+```
+
+### The destructor
+
+```cpp
+#include "StudentID.h"
+#include <string>
+
+StudentID::~StudentID() {
+	// free/deallocate any data here
+	delete [] my_array; /// for illustration
+}
+```
+
+- In our **StudentID** class we are not dynamically allocating any data by using the **`new`** keyword
+- Nonetheless destructors are an important part of an object’s lifecycle.
+- The destructor is not explicitly called, it is automatically called when an object goes out of scope
+
+### Type aliasing
+
+- **Type aliasing** - allows you to create synonymous identifiers for types
+
+```cpp
+template <typename T>
+class vector {
+	using iterator = T*;
+
+	// Implementation details...
+};
+```
+
+## Other stuff (TODO)
 
 ```cpp
 /*
@@ -263,8 +402,12 @@ void Student::exam() {
 }
 ```
 
-## 权限关键字
+### Permission Keywords
 
-- private
-- public
-- protected
+- `private`
+- `public`
+- `protected`
+
+---
+
+Last Updated: Wed Oct 16 16:53:37 CST 2024
