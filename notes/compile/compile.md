@@ -15,7 +15,7 @@ parent: Notes
 
 ## Readings
 
-- Slide: <https://web.stanford.edu/class/cs106l/lectures/03_Initialization&References.pdf>
+- Slide: <https://web.stanford.edu/class/cs106l/lectures/03_Initialization&References.pdf>, p100-113
 
 ---
 
