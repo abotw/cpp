@@ -1,5 +1,5 @@
 ---
-title: Inheritance
+title: Inheritance, 继承
 layout: home
 parent: Notes
 ---

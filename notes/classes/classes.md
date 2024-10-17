@@ -168,7 +168,7 @@ StudentID::StudentID(std::string name, std::string sunet, int idNumber) {
 
 - Use this **`this`** keyword to **disambiguate** which `name` you’re referring to.
 
-### List initialization constructor (C++11)
+### List initialization constructor (C++11), 列表初始化构造函数
 
 ```cpp
 #include "StudentID.h"
@@ -276,21 +276,26 @@ void StudentID::setID(int idNumber) {
 }
 ```
 
-### The destructor
+### The destructor, 析构函数
 
 ```cpp
 #include "StudentID.h"
 #include <string>
+#include <iostream>
 
 StudentID::~StudentID() {
 	// free/deallocate any data here
 	delete [] my_array; /// for illustration
+	
+	cout << "调用析构函数" << endl;
 }
 ```
 
 - In our **StudentID** class we are not dynamically allocating any data by using the **`new`** keyword
 - Nonetheless destructors are an important part of an object’s lifecycle.
-- The destructor is not explicitly called, it is automatically called when an object goes out of scope
+- The destructor is not explicitly called, **it is automatically called when an object goes out of scope (在对象销毁之前，由系统自动调用)**
+- 析构函数的调用顺序
+- 对于数组，每个元素都需要调用1次析构函数
 
 ### Type aliasing
 
@@ -489,13 +494,14 @@ newman3 = man;
 
 #### 重载、默认参数
 
-#### 初始化列表
+- 重载与默认值同时使用导致的歧义
 
 - 函数定义中不要出现默认参数，默认参数写在函数声明里
 - 带默认参数的构造函数，默认参数写在函数声明里
 
 #### 局部对象、静态对象、全局对象初始化顺序
 
+- 全局对象在 main 函数之前调用
 
 ---
 
