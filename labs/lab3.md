@@ -150,9 +150,315 @@ int main() {
 		- 写了但是空洞无物: -0.5分
 		- 使用AI生成: -0.5分
 
+## 测试用例得分情况
+
+{: .warning-title }
+> 更新时间
+> 
+> Sun Oct 20 18:39:21 CST 2024
+
+- 已提交: 49
+- 未提交: 6
+- 满分: 36
+- 满分学号后两位: ['01', '02', '03', '04', '05', '09', '10', '11', '12', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '26', '27', '28', '29', '31', '32', '33', '34', '36', '38', '40', '41', '43', '44', '48', '53', '54']
+- 0分: 8
+- 0分学号后两位: ['08', '24', '35', '37', '39', '45', '52', '55']
+
+| **StuNum**      | **student_class** | **triangle_class** | **Total** |
+| --------------- | ----------------- | ------------------ | --------- |
+| **24302081001** | 5.0               | 5.0                | 10.0      |
+| **24302081002** | 5.0               | 5.0                | 10.0      |
+| **24302081003** | 5.0               | 5.0                | 10.0      |
+| **24302081004** | 5.0               | 5.0                | 10.0      |
+| **24302081005** | 5.0               | 5.0                | 10.0      |
+| **24302081006** | 5.0               | 0.0                | 5.0       |
+| **24302081007** |                   |                    |           |
+| **24302081008** | 0.0               | 0.0                | 0.0       |
+| **24302081009** | 5.0               | 5.0                | 10.0      |
+| **24302081010** | 5.0               | 5.0                | 10.0      |
+| **24302081011** | 5.0               | 5.0                | 10.0      |
+| **24302081012** | 5.0               | 5.0                | 10.0      |
+| **24302081013** | 0.0               | 5.0                | 5.0       |
+| **24302081014** | 5.0               | 5.0                | 10.0      |
+| **24302081015** | 5.0               | 5.0                | 10.0      |
+| **24302081016** | 5.0               | 5.0                | 10.0      |
+| **24302081017** | 5.0               | 5.0                | 10.0      |
+| **24302081018** | 5.0               | 5.0                | 10.0      |
+| **24302081019** | 5.0               | 5.0                | 10.0      |
+| **24302081020** | 5.0               | 5.0                | 10.0      |
+| **24302081021** | 5.0               | 5.0                | 10.0      |
+| **24302081022** | 5.0               | 5.0                | 10.0      |
+| **24302081023** | 5.0               | 5.0                | 10.0      |
+| **24302081024** | 0.0               | 0.0                | 0.0       |
+| **24302081025** | 0.0               | 5.0                | 5.0       |
+| **24302081026** | 5.0               | 5.0                | 10.0      |
+| **24302081027** | 5.0               | 5.0                | 10.0      |
+| **24302081028** | 5.0               | 5.0                | 10.0      |
+| **24302081029** | 5.0               | 5.0                | 10.0      |
+| **24302081030** | 0.0               | 5.0                | 5.0       |
+| **24302081031** | 5.0               | 5.0                | 10.0      |
+| **24302081032** | 5.0               | 5.0                | 10.0      |
+| **24302081033** | 5.0               | 5.0                | 10.0      |
+| **24302081034** | 5.0               | 5.0                | 10.0      |
+| **24302081035** | 0.0               | 0.0                | 0.0       |
+| **24302081036** | 5.0               | 5.0                | 10.0      |
+| **24302081037** | 0.0               | 0.0                | 0.0       |
+| **24302081038** | 5.0               | 5.0                | 10.0      |
+| **24302081039** | 0.0               | 0.0                | 0.0       |
+| **24302081040** | 5.0               | 5.0                | 10.0      |
+| **24302081041** | 5.0               | 5.0                | 10.0      |
+| **24302081042** | 0.0               | 5.0                | 5.0       |
+| **24302081043** | 5.0               | 5.0                | 10.0      |
+| **24302081044** | 5.0               | 5.0                | 10.0      |
+| **24302081045** | 0.0               | 0.0                | 0.0       |
+| **24302081046** |                   |                    |           |
+| **24302081047** |                   |                    |           |
+| **24302081048** | 5.0               | 5.0                | 10.0      |
+| **24302081049** |                   |                    |           |
+| **24302081050** |                   |                    |           |
+| **24302081051** |                   |                    |           |
+| **24302081052** | 0.0               | 0.0                | 0.0       |
+| **24302081053** | 5.0               | 5.0                | 10.0      |
+| **24302081054** | 5.0               | 5.0                | 10.0      |
+| **24302081055** | 0.0               | 0.0                | 0.0       |
+
+### LOG
+
+```
+Processing: 24302081001 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081002 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081003 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081004 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081005 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081006 ...
+student_class: 5.0 分
+triangle_class: Failed case 1
+triangle_class: 0 分
+	Total: 5.0
+Processing: 24302081007 ...
+Folder missing: 24302081007
+Processing: 24302081008 ...
+student_class: Failed case 1
+student_class: 0 分
+triangle_class: Failed case 1
+triangle_class: 0 分
+	Total: 0.0
+Processing: 24302081009 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081010 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081011 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081012 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081013 ...
+student_class: Failed case 1
+student_class: 0 分
+triangle_class: 5.0 分
+	Total: 5.0
+Processing: 24302081014 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081015 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081016 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081017 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081018 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081019 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081020 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081021 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081022 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081023 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081024 ...
+student_class: Failed case 1
+student_class: 0 分
+triangle_class: Failed case 1
+triangle_class: 0 分
+	Total: 0.0
+Processing: 24302081025 ...
+student_class: Failed case 1
+student_class: 0 分
+triangle_class: 5.0 分
+	Total: 5.0
+Processing: 24302081026 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081027 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081028 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081029 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081030 ...
+student_class: 未找到文件
+triangle_class: 5.0 分
+	Total: 5.0
+Processing: 24302081031 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081032 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081033 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081034 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081035 ...
+student_class: Failed case 1
+student_class: 0 分
+运行过程中发生异常: 'utf-8' codec can't decode byte 0xc8 in position 0: invalid continuation byte
+triangle_class: 运行失败: Case 1
+triangle_class: 0 分
+	Total: 0.0
+Processing: 24302081036 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081037 ...
+student_class: Failed case 1
+student_class: 0 分
+triangle_class: Failed case 1
+triangle_class: 0 分
+	Total: 0.0
+Processing: 24302081038 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081039 ...
+student_class: Failed case 1
+student_class: 0 分
+triangle_class: Failed case 1
+triangle_class: 0 分
+	Total: 0.0
+Processing: 24302081040 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081041 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081042 ...
+student_class: Failed case 1
+student_class: 0 分
+triangle_class: 5.0 分
+	Total: 5.0
+Processing: 24302081043 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081044 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081045 ...
+student_class: Failed case 1
+student_class: 0 分
+triangle_class: Failed case 1
+triangle_class: 0 分
+	Total: 0.0
+Processing: 24302081046 ...
+Folder missing: 24302081046
+Processing: 24302081047 ...
+Folder missing: 24302081047
+Processing: 24302081048 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081049 ...
+Folder missing: 24302081049
+Processing: 24302081050 ...
+Folder missing: 24302081050
+Processing: 24302081051 ...
+Folder missing: 24302081051
+Processing: 24302081052 ...
+student_class: Failed case 1
+student_class: 0 分
+triangle_class: 未找到文件
+	Total: 0.0
+Processing: 24302081053 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081054 ...
+student_class: 5.0 分
+triangle_class: 5.0 分
+	Total: 10.0
+Processing: 24302081055 ...
+student_class: Failed case 1
+student_class: 0 分
+triangle_class: Failed case 1
+triangle_class: 0 分
+	Total: 0.0
+```
+
 ---
 
-Last Updated: Mon Oct 14 10:28:24 CST 2024
+Last Updated: Sun Oct 20 18:41:15 CST 2024
+
 
 
 
