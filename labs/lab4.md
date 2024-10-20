@@ -13,7 +13,7 @@ parent: Labs
 > 
 > (请在指定截止时间前提交，过期提交链接会失效！)
 
-# Lab 4: C++类的构建 2
+# Lab 4: C++类的构建 2 \[[实验报告模版](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=q1UQP6vKHKwLn1f0m16ksqIEvQKchSxGwMnWsUo4x4f9m1tkBszRHSKgJubtF88ZDD&mode=file&display=list)\]
 {: .no_toc }
 
 ## Table of Contents
@@ -22,7 +22,7 @@ parent: Labs
 1. TOC
 {:toc}
 
-## 实验内容 \[[实验报告模版](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=q1UQP6vKHKwLn1f0m16ksqIEvQKchSxGwMnWsUo4x4f9m1tkBszRHSKgJubtF88ZDD&mode=file&display=list)\]
+## 实验内容 
 
 ### Q1: Rectangle Class, 矩形类
 
@@ -91,10 +91,8 @@ int main() {
     account.deposit(500);
     account.withdraw(300);
     account.withdraw(1500);  // This will fail due to insufficient funds
-
     return 0;
 }
-
 ```
 #### 预期输出
 
@@ -132,7 +130,8 @@ Insufficient funds. Withdrawal failed.
 
 ---
 
-Last Updated: Sun Oct 20 18:24:23 CST 2024
+Last Updated: Sun Oct 20 18:31:51 CST 2024
+
 
 
 
