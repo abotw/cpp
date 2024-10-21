@@ -109,6 +109,7 @@ private: double _width, _height;
 | Public Members    | Are public in the derived class | Protected in the derived class  | Private in the derived class    |
 | Protected menbers | Protected in the derived class  | Protected in the derived class  | Private in the derived class    |
 | Private Members   | Not accessible in derived class | Not accessible in derived class | Not accessible in derived class |
+|                   | 大家都能用                           | 家里可以用                           | 只能自己用                           |
 
 ## Person class
 

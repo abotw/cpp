@@ -16,6 +16,7 @@ parent: Notes
 ## Readings
 
 - [x] Slide: <https://web.stanford.edu/class/cs106l/lectures/F2407_Classes.pdf>
+- [x] Slide: https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1238/lectures/14-classes/7_20_Lecture_14.pdf
 
 - https://icarus.cs.weber.edu/~dab/
 - https://icarus.cs.weber.edu/~dab/cs1410/textbook/9.Classes_And_Objects/classes_and_objects.html
@@ -29,7 +30,7 @@ parent: Notes
 
 - Classes allow you to encapsulate functionality and data with access protections
 
-## Comparing `struct` and `class`
+## Structs vs. Classes
 
 ![](./attachments/struct+class-2.png)
 
@@ -55,10 +56,15 @@ s.sunet = "fabioi";
 s.idNumber = -123451234512345; // ?
 ```
 
-- All these fields are **public**, i.e. can be changed by the user
-- There are no **direct access controls** while using structs
+- CS106L
+	- All these fields are **public**, i.e. can be changed by the user
+	- There are no **direct access controls** while using structs
+- CS106B
+	- Way to bundle different types of information
+		- Package data into one place
+	- Like **creating a custom data structure** or variable
 
-## `class`es
+## `class`
 
 ![](./attachments/class.png)
 
@@ -71,9 +77,30 @@ public:
 };
 ```
 
-- Classes have **public** and **private** sections!
-- A user can access the **public** stuff
-- But is **restricted** from accessing the private stuff
+- CS106L
+	- Classes have **public** and **private** sections!
+	- A user can access the **public** stuff
+	- But is **restricted** from accessing the private stuff
+	- A class bundles data and methods for an object together
+- CS106B
+	- Defines a new data type for our program to use
+	- Help us create types of objects
+		- Which is why we call this object-oriented programming!
+	- The only difference between structs and classes are the encapsulation defaults
+		- Struct defaults to **public** members (accessible outside the struct itself).
+		- Class defaults to **private** members (accessible only inside the class implementation).
+	- Every class has two parts:
+		- an **interface** specifying what operations can be performed on instances of the class
+		- an **implementation** specifying how those operations are to be performed
+	- Another way to think about classes…
+		- A **blueprint** for a new type of C++ **object**!
+		- The blueprint describes a general structure, and we can create specific **instances** of our class using this structure.
+	- **instance**
+		- When we create an object that is our new type, we call this creating an instance of our class.
+		- `Vector vec;`
+			- Creates an **instance** of the Vector **class** (i.e. an object of the type `Vector`)
+
+![](attachments/blueprint.png)
 
 ## a StanfordID class
 
@@ -90,6 +117,10 @@ id.sunet = "jtrb";
 id.idNumber = 6504417;
 ```
 
+## Encapsulation
+
+- process of grouping related information and relevant functions into one unit and **defining where that information is accessible**
+
 ## Header File (.h) vs Source Files (.cpp)
 
 |          | Header File (.h)                                                             | Source File (.cpp)                        |
@@ -99,12 +130,37 @@ id.idNumber = 6504417;
 | Access   | This is shared across source files                                           | Is compiled into an object file           |
 | Example  | `void someFunction();`                                                       | `void someFunction() {...};`              |
 
-## Class design
+## Designing C++ Classes
 
 1. A constructor
 2. Private member functions/variables
 3. Public member functions (interface for a user)
 4. Destructor
+
+### Three Main Parts
+
+- Member variables
+	- These are the variables stored within the class
+	- Usually not accessible outside the class implementation
+- Member functions (methods)
+	- Functions you can call on the object
+	- E.g. `vec.add()`, `vec.size()`, `vec.remove()`, etc.
+- Constructor
+	- Gets called when you create the object
+	- Sets the initial state of each new object
+	- E.g. `Vector vec`;
+
+### How do we design a class?
+
+- We must specify the three parts: 
+	- **Member variables**: *What subvariables make up this new variable type?*
+	- **Member functions**: *What functions can you call on a variable of this type?*
+	- **Constructor**: *What happens when you make a new instance of this type?*
+
+### How would you design a class for…
+
+- A bank account that enables transferring funds between accounts
+- A Spotify (or other music platform) playlist
 
 ### Constructor
 
@@ -179,6 +235,11 @@ StudentID::StudentID(std::string name, std::string sunet, int idNumber): name{na
 ```
 
 - Recall, uniform initialization, this is similar but not quite!
+- list initialization constructor 的书写顺序并不重要
+
+```cpp
+Class::Method(datatype name, datatype name, ...) : 
+```
 
 ### Default constructor
 
@@ -309,6 +370,109 @@ class vector {
 	// Implementation details...
 };
 ```
+
+## CS106B: Random Bags
+
+- A random bag is a data structure similar to a stack or queue
+- It supports two operations:
+	- add, which puts an element into the random bag, and
+	- remove random, which returns and removes a random element from the bag
+- Random bags have a number of applications:
+	- Simpler: Shuffling a deck of cards.
+	- More advanced: Generating artwork, designing mazes, and training self-driving cars to park and change lanes!
+
+### Creating C++ Class
+
+- Defining a class in C++ (typically) requires two steps:
+	- Create a header file (typically suffixed with .h) describing what operations the class can perform and what internal state it needs.
+	- Create an implementation file (typically suffixed with .cpp) that contains the implementation of the class.
+
+![](attachments/recursion.png)
+
+- Clients of the class can then include (using the `#include` directive) the header file to use the class.
+	- E.g. `#include 'map.h'`, `#include 'vector.h'`, etc.
+
+### Header Files: `RandomBag.h`
+
+#### What is in a header file?
+
+- `#pragma once`
+	- This code is called a **preprocessor directive**. It’s used to make sure weird things don’t happen if you include the same header twice.
+- `class RandomBag { statements... };`
+	- This is a **class definition**. We’re creating a new class called `RandomBag`. Like a `struct`, this defines the name of a new type that we can use in our programs. When naming classes, use **UpperCamelCase**.
+- `;`
+	- Don’t forget to add the semicolon! You'll run into some scary compiler errors if you leave it out!
+
+![](attachments/h.png)
+
+- The **public interface** specifies what functions you can call on objects of this type. (i.e. its methods)
+	- Think things like the `Vector` `.add()` function or the `string`’s `.find()`.
+- The **private implementation** contains information that objects of this class type will need in order to do their job properly. This is invisible to people using the class.
+
+![](attachments/h-1.png)
+
+- These are **member functions** of the `RandomBag` class. They're functions you can call on objects of type `RandomBag`.
+- All member functions must be defined in the class definition. We'll implement these functions in the C++ file.
+
+![](attachments/Pasted%20image%2020241021152242.png)
+
+- This is a **member variable** of the class. This tells us how the class is implemented. Internally, we're going to store a `Vector<int>` holding all the elements. The only code that can access or touch this `Vector` is the `RandomBag` implementation
+
+```cpp
+#pragma once
+#include "vector.h"
+class RandomBag {
+public:
+	void add(int value);
+	int removeRandom();
+private:
+	Vector elems;
+};
+```
+
+### Implementation Files: `RandomBag.cpp`
+
+- If we're going to implement the `RandomBag` type, the `.cpp` file needs to have the class definition available. All implementation files need to include the relevant headers.
+	- `#include "RandomBag.h"`
+
+![](attachments/Pasted%20image%2020241021152817.png)
+
+- The syntax **`RandomBag::add`** means “the add function defined inside of `RandomBag`." The `::` operator is called the **scope resolution operator** in C++ and is used to say where to look for things.
+
+![](attachments/Pasted%20image%2020241021152950.png)
+
+- If we had written something like this instead, then the compiler would think we were just making a free function named add that has nothing to do with `RandomBag`’s version of `add`. That’s an easy mistake to make!
+- We don't need to specify where `elems` is. The compiler knows that we're inside `RandomBag`, and so it knows that this means "the current RandomBag's collection of elements." Using the scope resolution operator is like passing in an invisible parameter to the function to indicate what the current instance is.
+
+![](attachments/Pasted%20image%2020241021153249.png)
+
+- This code calls our own `size()` function. The class implementation can use the public interface.
+
+![](attachments/Pasted%20image%2020241021153347.png)
+
+![](attachments/Pasted%20image%2020241021153406.png)
+
+- This use of the `const` keyword means "I promise that this function doesn't change the state of the object.”
+
+![](attachments/Pasted%20image%2020241021153503.png)
+
+- Note: There are some additional `#includes` that we’ll need. (We’ll see them in the actual `.cpp` file.)
+
+### Takeaways
+
+- Public member variables declared in the header file are automatically accessible in the .cpp file.
+- As a best practice, member variables should be private, and you can create public member functions to allow users to edit them
+- Member functions have an implicit parameter that allows them to know what instance of the class (i.e. which object) they’re operating on
+- When you don’t have a constructor, there’s a default, zero-argument constructor that instantiates all private member variables
+
+## Recap
+
+- We can create our own abstractions for defining data types using classes. Classes allow us to encapsulate information in a structured way.
+- Classes have three main parts to keep in mind when designing them:
+	- Member variables → these are always private
+	- Member functions (methods) → these can be private or public
+	- Constructor → this is created by default if you don’t define one
+- Writing classes requires the creation of a header (`.h`) file for the interface and an implementation (`.cpp`) file.
 
 ## Other stuff (TODO)
 
