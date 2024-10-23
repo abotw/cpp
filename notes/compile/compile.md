@@ -19,6 +19,29 @@ parent: Notes
 
 ---
 
+- C++ is a **compiled** language
+
+---
+
+![](attachments/Slide13.jpg)
+
+![](attachments/Slide14.jpg)
+
+![](attachments/Slide15.jpg)
+
+![](attachments/Slide16.jpg)
+
+## Why compile over interpret?
+
+- It allows us to generate more efficient machine code!
+	- Interpreters only see one small part of code at a time
+	- Compilers see everything
+- However, complication takes time!
+
+![](attachments/Slide20.jpg)
+
+---
+
 ## Compiling C++ Programs
 
 - Everything you need to know about compiling a program for your first assignment.
@@ -49,4 +72,5 @@ parent: Notes
 
 ---
 
-Last Updated: Thu Oct 17 09:12:38 CST 2024
+Last Updated: Wed Oct 23 18:28:09 CST 2024
+

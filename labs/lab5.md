@@ -3,7 +3,7 @@ title: "Lab 5: 待更新"
 layout: home
 parent: Labs
 ---
-
+Due Sunday, November 3rd at 11:59 PM
 # Lab 5
 {: .no_toc }
 
