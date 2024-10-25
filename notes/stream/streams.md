@@ -107,6 +107,8 @@ void verifyPi()
 - **What?:** a way to treat strings as streams
 - **Utility?:** `stringstreams` are useful for use-cases that deal with mixing data types
 
+![](attachments/Slide5.jpg)
+
 ![](attachments/04_Streams-044.png)
 
 ![](attachments/04_Streams-045.png)

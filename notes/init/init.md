@@ -62,6 +62,10 @@ int main() {
 
 ## 2/3 Uniform initialization (C++11)
 
+```cpp
+Student jacob { "Jacob", "NM", 21 }
+```
+
 - **Use uniform initialization — it works for all types and objects!**
 - **A ubiquitous and safe way of initializing things using `{}`**
 
@@ -150,6 +154,10 @@ int main() {
 ![](attachments/03_Initialization&References-034.png)
 
 ## 3/3 Structured Binding (C++ 17)
+
+```cpp
+auto [first, second] = p;
+```
 
 - A useful way to initialize some variables from data structures with fixed sizes at compile time
 - Ability to access multiple values returned by a function

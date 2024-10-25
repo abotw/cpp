@@ -1,10 +1,6 @@
 ---
 title: Notes
-layout: home
+layout: page
 ---
-# Notes, 课程笔记
+# Notes
 
-Last Updated: Mon Sep 30 23:56:20 CST 2024
-
-{: .new}
-> 努力建设中 ʕ •ᴥ•ʔ
