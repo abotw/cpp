@@ -6,6 +6,8 @@ parent: Notes
 
 # Welcome to C++!
 
+- C++ is a compiled, statically typed language
+
 ## A valid C++ program
 
 ```cpp
@@ -102,8 +104,21 @@ for ch in "CS106L":
 	print(ch)
 ```
 
+## std ― The C++ Standard Library
 
+- Built-in types, functions, and more provided by C++
+- You need to `#include` the relevant file
+	- `#include <string>` → `std::string`
+	- `#include <utility>` → `std::pair`
+	- `#include <iostream>` → `std::cout`, `std::endl`
+- We prefix standard library names with `std::`
+	- If we write `using namespace std;` we don’t have to, but this is considered bad style as it can introduce ambiguity
+		- (What would happen if we defined our own `string`?)
+- See the official standard at cppreference.com!
+- Avoid cplusplus.com…
+	- It is outdated and filled with ads
 
 ---
 
-Last Updated: Wed Oct 23 17:10:51 CST 2024
+Last Updated: Wed Oct 23 22:04:21 CST 2024
+

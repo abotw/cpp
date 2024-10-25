@@ -1,7 +1,8 @@
 ---
 title: Announcements
-layout: home
+layout: page
 ---
+
 # Announcements, 课程通知
 
 {: .warning-title}

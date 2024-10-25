@@ -1,3 +1,4 @@
-# 程序设计语言II (2024 Fall, HFU)
+# 程序设计语言 II (2024秋季学期, HFU)
 
-⚠️ 建设中
+Last Updated: Fri Oct 25 08:35:30 CST 2024
+

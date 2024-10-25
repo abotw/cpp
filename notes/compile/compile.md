@@ -19,9 +19,7 @@ parent: Notes
 
 ---
 
-- C++ is a **compiled** language
-
----
+## How do we run code?
 
 ![](attachments/Slide13.jpg)
 
@@ -30,6 +28,8 @@ parent: Notes
 ![](attachments/Slide15.jpg)
 
 ![](attachments/Slide16.jpg)
+
+- Source Code -> Compiler -> Machine Code
 
 ## Why compile over interpret?
 
@@ -40,18 +40,12 @@ parent: Notes
 
 ![](attachments/Slide20.jpg)
 
----
-
 ## Compiling C++ Programs
 
-- Everything you need to know about compiling a program for your first assignment.
-- We’ll be making use of VSCode which makes C++ compilation quite easy.
-
-- Source Code -> Compiler -> Machine Code
-- C++ is a compiled language
+- C++ is a **compiled** language
 - There are computer programs called **compilers**
 - A few popular compilers include **clang** and **g++**
-- **Here is how to compile a program using g++**
+- Here is how to compile a program using g++
 	- `g++ -std=c++11 main.cpp -o main`
 		- `g++` - This is the compiler command
 		- `-std=c++11` - This specifies the c++ version you want to compile in
@@ -67,10 +61,9 @@ parent: Notes
 		- `main` - In this case it’s main
 - This is also valid, your executable will be something like a.out
 	- `g++ -std=c++11 main.cpp`
-
-- This is all you need for now! We will talk about large project compilation in another lecture and explore things like **CMAKE** and **make**!
+- Large project compilation: **CMAKE** and **make**!
 
 ---
 
-Last Updated: Wed Oct 23 18:28:09 CST 2024
+Last Updated: Fri Oct 25 09:54:35 CST 2024
 
