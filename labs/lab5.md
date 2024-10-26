@@ -9,7 +9,7 @@ parent: Labs
 > 
 > Lab 5 的实验报告、程序代码的提交截止时间是：11.03 11:59 p.m. (周日)。
 
-# Lab 5: SimpleEnroll \[初始代码\] \[实验报告\]
+# Lab 5: SimpleEnroll \[[初始代码](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=q1UQP6vKHKwLn1f0m16ksqBonDVQrYKuWGPDyu750e01c8ESezenhm2m2wv94FFOk75&mode=file&display=list)\] \[实验报告\]
 {: .no_toc }
 
 ## Table of Contents
@@ -31,6 +31,8 @@ parent: Labs
 
 * `main.cpp`：所有代码都写在这里 😀！
 * `utils.cpp`：包含一些实用函数。你需要使用此文件中的函数，但不需要修改它。
+
+请在标题处下载初始代码。
 
 ## 运行代码
 
