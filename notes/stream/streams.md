@@ -104,14 +104,16 @@ void verifyPi()
 
 ## `std::stringstream`
 
+![](attachments/04_Streams-044.png)
+
 - **What?:** a way to treat strings as streams
 - **Utility?:** `stringstreams` are useful for use-cases that deal with mixing data types
 
 ![](attachments/Slide5.jpg)
 
-![](attachments/04_Streams-044.png)
-
 ![](attachments/04_Streams-045.png)
+
+### e.g.
 
 ```cpp
 #include <iostream>
@@ -301,9 +303,96 @@ cout << variable;
 		- `close()`
 		- `fail()`
 
+### e.g.
+
 ```cpp
+int main()
+{
+	/// associating file on construction
+	std::ofstream ofs("hello.txt");
+	if (ofs.is_open()) {
+		ofs << "Hello CS106L!" << '\n';
+	}
+	ofs.close();
+	ofs << "this will not get written";
+	
+	ofs.open("hello.txt");
+	ofs << "this will though! It's open again";
+	return 0;
+}
+```
+
+- Creates an output file stream to the file “hello.txt”
+- Checks if the file is open and if it is, then tries to write to it!
+- This closes the output file stream to “hello.txt”
+- Will silently fail
+- Reopens the stream
+- Successfully writes to stream
+
+```cpp
+int main()
+{
+	/// associating file on construction
+	std::ofstream ofs("hello.txt");
+	if (ofs.is_open()) {
+		ofs << "Hello CS106L!" << '\n';
+	}
+	ofs.close();
+	ofs << "this will not get written";
+	
+	ofs.open("hello.txt", std::ios::app);
+	ofs << "this will though! It's open again";
+	return 0;
+}
+```
+
+- `std::ios::app` - Flag specifies you want to append, not truncate!
+
+## Input File Streams
+
+### e.g.
+
+`append.txt`
 
 ```
+first line;
+second line;
+```
+
+```cpp
+#include <fstream>
+#include <iostream>
+
+int inputFileStreamExample() {
+	std::ifstream ifs("append.txt");
+	if (ifs.is_open()) {
+		std::string line;
+		std::getline(ifs, line);
+		std::cout << "Read from the file: " << line << '\n';
+	}
+	if (ifs.is_open()) {
+		std::string lineTwo;
+		std::getline(ifs, lineTwo);
+		std::cout << "Read from the file: " << lineTwo << '\n';
+	}
+	return 0;
+}
+
+int main()
+{
+	inputFileStreamExample();
+	return 0;
+}
+```
+
+```
+Read from the file: first line;
+Read from the file: second line;
+```
+
+- Input and output streams on the same source/destination type are complimentary!
+
+![](cs106l/cs106l-24fa-04_Streams/04_Streams-124.png)
 
 ## Input Streams
 

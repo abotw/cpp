@@ -15,11 +15,13 @@ math: katex
 
 对工具软件感兴趣的同学，更多资料可以参考：[https://oi-wiki.org/tools/](https://oi-wiki.org/tools/)。
 
-## VSCode Setup Instructions
+---
 
-### Windows
+## Windows
 
-#### Step One: Installing VSCode
+### 第1步：安装 VSCode
+
+- [下载链接](https://code.visualstudio.com/docs/setup/windows)
 
 Go to [this link](https://code.visualstudio.com/docs/setup/windows) and download Visual Studio Code for Windows. Follow the instructions on this webpage under the section **Installation**.
 
@@ -27,53 +29,22 @@ Inside VSCode, head to the extensions tab [![](https://github.com/cs106l/cs106l
 
 **🥳 At this point you should successfully have VSCode on your PC 👏**
 
-#### Step Two: Installing a C++ Compiler
+### 第2步：安装C++编译器
+
+
+
 
 1. Follow the instructions at [this link](https://code.visualstudio.com/docs/cpp/config-mingw)
+    
     - You should be doing the instructions under **Installing the MinGW-w64 toolchain.**
-2. After fully following the instructions under **Installing the MinGW-w64 toolchain** you should now be able to verify everything worked by running the following command: `g++ --version`
+2. After fully following the instructions under **Installing the MinGW-w64 toolchain** you should now be able to verify everything worked by running the following command:
+    
 
-### Mac
-
-#### Step One: Installing VSCode
-
-Go to [this link](https://code.visualstudio.com/docs/setup/mac) and download Visual Studio Code for Mac. Follow the instructions on this webpage under the section **Installation**.
-
-Inside VSCode, head to the extensions tab  [![](https://github.com/cs106l/cs106l-assignments/raw/main/docs/vscode-extensions.png)](https://github.com/cs106l/cs106l-assignments/blob/main/docs/vscode-extensions.png)and search for **C/C++**. Click on the **C/C++** extension, and then click **Install**.
-
-<b> 🥳 At this point you should successfully have VSCode on your Mac 👏 </b>
-
-#### Step Two: Installing a C++ Compiler
-
-<ol>
-  <li>
-    Check if you have Homebrew by running 
-    <pre lang="sh">brew --version</pre>
-    If you get something like
-    <pre lang="sh">
-brew --version
-Homebrew 4.2.21</pre>
-    then <b>skip step 2 and go to step 3.</b> If you get anything else that looks sus then proceed to step 2!
-  </li>
-  <li>
-    Run this command:
-    <pre lang="sh">/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</pre>
-    which is going to download Homebrew🍺 which is a package manager. Woot woot.
-  </li>
-  <li>
-    Run the following command:
-    <pre lang="sh">brew install gcc</pre>
-    which is going to install the compiler (GCC).
-  </li>
-  <li>
-    Make note of which GCC version Homebrew installs. In most cases, this will be <code>g++-14</code>. 
-    By default, the <code>g++</code> command on Mac is an alias to the built-in <code>clang</code> compiler. We can fix this by running <pre lang="sh">echo 'alias g++="g++-14"' >> ~/.zshrc</pre> to make <code>g++</code> point to the version of GCC we just installed. Change <code>g++-14</code> in the above command to whichever version of GCC you installed.
-  <li>
-    Restart your terminal and verify that everything worked by running the following command:
-    <pre lang="sh">g++ --version</pre>
-  </li>
-</ol>
+```shell
+g++ --version
+```
 
 ---
 
-Last Updated: Wed Oct 23 16:07:23 CST 2024
+Last Updated: Sat Oct 26 21:19:12 CST 2024
+

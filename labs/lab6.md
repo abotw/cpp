@@ -1,10 +1,10 @@
 ---
-title: "Lab 5: 待更新"
+title: "Lab 6: 待更新"
 layout: home
 parent: Labs
 ---
 
-# Lab 6
+# Lab 6: 待更新
 {: .no_toc }
 
 ## Table of Contents
