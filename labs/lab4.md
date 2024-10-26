@@ -123,55 +123,51 @@ Insufficient funds. Withdrawal failed.
 		- 如拍照而非截图
 		- 如没有调整截图大小
 		- 如截图内容和题目无法对应
-	- 总结问题: -0.5分
-		- 如不写
-		- 如写了但是空洞无物
-		- 如使用AI生成
 
 ## Score
 
-Last Updated: Wed Oct 23 21:38:40 CST 2024
+Last Updated: Sat Oct 26 21:40:07 CST 2024
 
-- 已提交: 25
-- 未提交: 30
-- 满分: 17
-- 满分学号后两位: ['01', '03', '04', '12', '14', '15', '19', '22', '28', '32', '36', '38', '40', '41', '43', '52', '55']
-- 0分: 1
-- 0分学号后两位: ['29']
+- 已提交: 41
+- 未提交: 14
+- 满分: 31
+- 满分学号后两位: ['01', '02', '03', '04', '05', '06', '09', '12', '13', '14', '15', '16', '18', '19', '20', '21', '22', '25', '27', '28', '32', '36', '38', '40', '41', '43', '44', '45', '52', '54', '55']
+- 0分: 2
+- 0分学号后两位: ['24', '30']
 
 | **StuNum**      | **rectangle** | **bank_account** | **Total** |
 | --------------- | ------------- | ---------------- | --------- |
 | **24302081001** | 5.0           | 5.0              | 10.0      |
-| **24302081002** |               |                  |           |
+| **24302081002** | 5.0           | 5.0              | 10.0      |
 | **24302081003** | 5.0           | 5.0              | 10.0      |
 | **24302081004** | 5.0           | 5.0              | 10.0      |
-| **24302081005** |               |                  |           |
-| **24302081006** |               |                  |           |
+| **24302081005** | 5.0           | 5.0              | 10.0      |
+| **24302081006** | 5.0           | 5.0              | 10.0      |
 | **24302081007** |               |                  |           |
 | **24302081008** |               |                  |           |
-| **24302081009** |               |                  |           |
+| **24302081009** | 5.0           | 5.0              | 10.0      |
 | **24302081010** |               |                  |           |
 | **24302081011** | 0.0           | 5.0              | 5.0       |
 | **24302081012** | 5.0           | 5.0              | 10.0      |
-| **24302081013** |               |                  |           |
+| **24302081013** | 5.0           | 5.0              | 10.0      |
 | **24302081014** | 5.0           | 5.0              | 10.0      |
 | **24302081015** | 5.0           | 5.0              | 10.0      |
-| **24302081016** | 0.0           | 5.0              | 5.0       |
+| **24302081016** | 5.0           | 5.0              | 10.0      |
 | **24302081017** |               |                  |           |
-| **24302081018** | 0.0           | 5.0              | 5.0       |
+| **24302081018** | 5.0           | 5.0              | 10.0      |
 | **24302081019** | 5.0           | 5.0              | 10.0      |
-| **24302081020** |               |                  |           |
-| **24302081021** |               |                  |           |
+| **24302081020** | 5.0           | 5.0              | 10.0      |
+| **24302081021** | 5.0           | 5.0              | 10.0      |
 | **24302081022** | 5.0           | 5.0              | 10.0      |
 | **24302081023** |               |                  |           |
-| **24302081024** |               |                  |           |
-| **24302081025** |               |                  |           |
-| **24302081026** |               |                  |           |
-| **24302081027** |               |                  |           |
+| **24302081024** | 0.0           | 0.0              | 0.0       |
+| **24302081025** | 5.0           | 5.0              | 10.0      |
+| **24302081026** | 5.0           | 0.0              | 5.0       |
+| **24302081027** | 5.0           | 5.0              | 10.0      |
 | **24302081028** | 5.0           | 5.0              | 10.0      |
-| **24302081029** | 0.0           | 0.0              | 0.0       |
-| **24302081030** |               |                  |           |
-| **24302081031** |               |                  |           |
+| **24302081029** | 5.0           | 0.0              | 5.0       |
+| **24302081030** | 0.0           | 0.0              | 0.0       |
+| **24302081031** | 5.0           | 0.0              | 5.0       |
 | **24302081032** | 5.0           | 5.0              | 10.0      |
 | **24302081033** | 5.0           | 0.0              | 5.0       |
 | **24302081034** | 5.0           | 0.0              | 5.0       |
@@ -184,8 +180,8 @@ Last Updated: Wed Oct 23 21:38:40 CST 2024
 | **24302081041** | 5.0           | 5.0              | 10.0      |
 | **24302081042** | 0.0           | 5.0              | 5.0       |
 | **24302081043** | 5.0           | 5.0              | 10.0      |
-| **24302081044** |               |                  |           |
-| **24302081045** |               |                  |           |
+| **24302081044** | 5.0           | 5.0              | 10.0      |
+| **24302081045** | 5.0           | 5.0              | 10.0      |
 | **24302081046** |               |                  |           |
 | **24302081047** |               |                  |           |
 | **24302081048** | 5.0           | 0.0              | 5.0       |
@@ -194,7 +190,7 @@ Last Updated: Wed Oct 23 21:38:40 CST 2024
 | **24302081051** |               |                  |           |
 | **24302081052** | 5.0           | 5.0              | 10.0      |
 | **24302081053** |               |                  |           |
-| **24302081054** |               |                  |           |
+| **24302081054** | 5.0           | 5.0              | 10.0      |
 | **24302081055** | 5.0           | 5.0              | 10.0      |
 
 ### LOG
@@ -205,7 +201,9 @@ rectangle: 5.0 分
 bank_account: 5.0 分
 	Total: 10.0
 Processing: 24302081002 ...
-Folder missing: 24302081002
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081003 ...
 rectangle: 5.0 分
 bank_account: 5.0 分
@@ -215,15 +213,21 @@ rectangle: 5.0 分
 bank_account: 5.0 分
 	Total: 10.0
 Processing: 24302081005 ...
-Folder missing: 24302081005
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081006 ...
-Folder missing: 24302081006
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081007 ...
 Folder missing: 24302081007
 Processing: 24302081008 ...
 Folder missing: 24302081008
 Processing: 24302081009 ...
-Folder missing: 24302081009
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081010 ...
 Folder missing: 24302081010
 Processing: 24302081011 ...
@@ -236,7 +240,9 @@ rectangle: 5.0 分
 bank_account: 5.0 分
 	Total: 10.0
 Processing: 24302081013 ...
-Folder missing: 24302081013
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081014 ...
 rectangle: 5.0 分
 bank_account: 5.0 分
@@ -246,25 +252,27 @@ rectangle: 5.0 分
 bank_account: 5.0 分
 	Total: 10.0
 Processing: 24302081016 ...
-rectangle: Failed case 1
-rectangle: 0 分
+rectangle: 5.0 分
 bank_account: 5.0 分
-	Total: 5.0
+	Total: 10.0
 Processing: 24302081017 ...
 Folder missing: 24302081017
 Processing: 24302081018 ...
-rectangle: Failed case 1
-rectangle: 0 分
+rectangle: 5.0 分
 bank_account: 5.0 分
-	Total: 5.0
+	Total: 10.0
 Processing: 24302081019 ...
 rectangle: 5.0 分
 bank_account: 5.0 分
 	Total: 10.0
 Processing: 24302081020 ...
-Folder missing: 24302081020
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081021 ...
-Folder missing: 24302081021
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081022 ...
 rectangle: 5.0 分
 bank_account: 5.0 分
@@ -272,27 +280,45 @@ bank_account: 5.0 分
 Processing: 24302081023 ...
 Folder missing: 24302081023
 Processing: 24302081024 ...
-Folder missing: 24302081024
+运行过程中发生异常: 'utf-8' codec can't decode byte 0xa3 in position 38: invalid start byte
+rectangle: 运行失败: Case 1
+rectangle: 0 分
+bank_account: Failed case 1
+bank_account: 0 分
+	Total: 0.0
 Processing: 24302081025 ...
-Folder missing: 24302081025
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081026 ...
-Folder missing: 24302081026
+rectangle: 5.0 分
+bank_account: Failed case 1
+bank_account: 0 分
+	Total: 5.0
 Processing: 24302081027 ...
-Folder missing: 24302081027
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081028 ...
 rectangle: 5.0 分
 bank_account: 5.0 分
 	Total: 10.0
 Processing: 24302081029 ...
+rectangle: 5.0 分
+bank_account: Failed case 1
+bank_account: 0 分
+	Total: 5.0
+Processing: 24302081030 ...
 rectangle: Failed case 1
 rectangle: 0 分
 bank_account: Failed case 1
 bank_account: 0 分
 	Total: 0.0
-Processing: 24302081030 ...
-Folder missing: 24302081030
 Processing: 24302081031 ...
-Folder missing: 24302081031
+rectangle: 5.0 分
+bank_account: Failed case 1
+bank_account: 0 分
+	Total: 5.0
 Processing: 24302081032 ...
 rectangle: 5.0 分
 bank_account: 5.0 分
@@ -338,9 +364,13 @@ rectangle: 5.0 分
 bank_account: 5.0 分
 	Total: 10.0
 Processing: 24302081044 ...
-Folder missing: 24302081044
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081045 ...
-Folder missing: 24302081045
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081046 ...
 Folder missing: 24302081046
 Processing: 24302081047 ...
@@ -372,7 +402,9 @@ bank_account: 5.0 分
 Processing: 24302081053 ...
 Folder missing: 24302081053
 Processing: 24302081054 ...
-Folder missing: 24302081054
+rectangle: 5.0 分
+bank_account: 5.0 分
+	Total: 10.0
 Processing: 24302081055 ...
 rectangle: 5.0 分
 bank_account: 5.0 分
@@ -380,14 +412,14 @@ bank_account: 5.0 分
 
 Done: grades.csv
 
-2024-10-23 21:36:26.302 Python[10677:672288] +[IMKClient subclass]: chose IMKClient_Legacy
-2024-10-23 21:36:26.302 Python[10677:672288] +[IMKInputSession subclass]: chose IMKInputSession_Legacy
-已提交: 25
-未提交: 30
-满分: 17
-满分学号后两位: ['01', '03', '04', '12', '14', '15', '19', '22', '28', '32', '36', '38', '40', '41', '43', '52', '55']
-0分: 1
-0分学号后两位: ['29']
+2024-10-26 21:39:36.600 Python[39133:2456817] +[IMKClient subclass]: chose IMKClient_Legacy
+2024-10-26 21:39:36.600 Python[39133:2456817] +[IMKInputSession subclass]: chose IMKInputSession_Legacy
+已提交: 41
+未提交: 14
+满分: 31
+满分学号后两位: ['01', '02', '03', '04', '05', '06', '09', '12', '13', '14', '15', '16', '18', '19', '20', '21', '22', '25', '27', '28', '32', '36', '38', '40', '41', '43', '44', '45', '52', '54', '55']
+0分: 2
+0分学号后两位: ['24', '30']
 ```
 
 ---
