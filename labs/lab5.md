@@ -14,7 +14,7 @@ parent: Labs
 > 
 > Lab 5 改编自 [Stanford CS107L Standard C++ Programming Assignment 1](https://github.com/cs106l/cs106l-assignments/blob/main/assign1/README.md)，英文好的同学也可以直接阅读原作业文档。
 
-# Lab 5: SimpleEnroll \[[初始代码](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=q1UQP6vKHKwLn1f0m16ksqBonDVQrYKuWGPDyu750e01c8ESezenhm2m2wv94FFOk75&mode=file&display=list)\] \[实验报告\]
+# Lab 5: SimpleEnroll \[[初始代码](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=q1UQP6vKHKwLn1f0m16ksqBonDVQrYKuWGPDyu750e01c8ESezenhm2m2wv94FFOk75&mode=file&display=list)\] \[[实验报告](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=T3ZGdm1D9Ga7GGgFTwAkDZm3NHsG36MW00c6WgpjQLo8JuUTnSg2DD9K0i2ORJdym3d&mode=file&display=list)\]
 {: .no_toc }
 
 ## Table of Contents
@@ -124,7 +124,7 @@ Part 3 与 Part 2 类似，但更简单些。
 ## 提交链接
 
 1. [【实验报告】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfb2tm25Zjd0X0uAsRiqpcrH2O6n5PqoqlWRSkgAcqgKM3&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
-	1. 由于本次实验考查知识的综合应用，具有一定的难度，因此请大家在实验报告中详细记录自己的思路，以及解决问题的方式，并以此作为打分的主要依据。
+	1. 由于本次实验考查知识的综合应用，具有一定的难度，因此作为一个探究型的实验，请大家在实验报告中详细记录自己的思路，以及解决问题的方式，并以此作为打分的主要依据。
 		1. 比如你碰到了什么困难，是和谁讨论的？
 		2. 如果没有和人讨论，自己是如何解决的？
 	2. 实验报告中请贴出 `parse_csv`、`write_courses_offered` 和 `write_courses_not_offered` 这3个函数的代码。
@@ -146,7 +146,8 @@ Part 3 与 Part 2 类似，但更简单些。
 
 ---
 
-Last Updated: Sun Oct 27 22:23:35 CST 2024
+Last Updated: Sun Oct 27 22:34:28 CST 2024
+
 
 
 
