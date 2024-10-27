@@ -19,52 +19,64 @@ math: katex
 
 ## Windows
 
-### 第 0 步：安装 Python (测试环境需要)
+### 第 1 步：安装 Python (测试环境需要)
 
 - [Python 下载链接](https://www.python.org/downloads/release/python-3130/)
 
-1. 点击上方下载链接。在页面的最下方选择对应的版本进行下载，一般是 `Windows installer (64-bit)`。
+---
+
+1. 点击上方下载链接，在页面的最下方选择对应的版本进行下载，一般是 `Windows installer (64-bit)`。
 
 ![](attachments/Pasted%20image%2020241027093718.png)
 
 2. 下载完成后，双击如下安装向导：
 ![](attachments/pyexe.png)
 
-3. 首先勾选 “Use admin privileges when installing py.exe”（可选）和 “Add python.exe to PATH”（必选）。然后单击“Install Now”，安装到默认位置。也可以根据自己的情况，自定义安装的位置以及其他选项。
+3. 首先勾选 “Use admin privileges when installing py.exe”（可选）和 “Add python.exe to PATH”（必选）。然后单击“Install Now”，安装到默认位置。也可以根据自己的情况，自定义安装的位置和其他选项。
 ![](attachments/pyins-1.png)
 
 4. 安装过程：
 ![](attachments/pyins-2.png)
 
-5. 成功安装后回显示如下界面：
+5. 成功安装后会显示如下界面：
 ![](attachments/pyins-3.png)
 
-6. 打开 cmd，输入 `python` 命令，如果出现 `>>>` 则表示 Python 已经成功安装。直接关闭 cmd 即可。
+6. 打开 cmd，输入 `python` ，如果出现 `>>>` 则表示 Python 已经成功安装。随后关闭 cmd 即可。
 ![](attachments/pyfin.png)
 
-### 第 1 步：安装 VSCode (方便执行编译命令)
+### 第 2 步：安装 VSCode (方便执行编译命令)
 
-- VSCode 下载链接
+- [VSCode 下载链接](https://code.visualstudio.com/)
 
+---
+
+1. 点击上方下载链接，下载完成后得到如下安装程序。
 ![](attachments/vscexe.png)
 
+2. 运行安装程序并按照安装向导的步骤进行操作。
 ![](attachments/vscins-1.png)
 
+3. 在向导中，选择想要安装的文件夹位置。
 ![](attachments/vscins-2.png)
 
+4. 选择是否在开始菜单创建快捷方式：
 ![](attachments/vscins-3.png)
 
+5. 配置项，建议全部勾选：
 ![](attachments/vscins-4.png)
 
+6. 安装成功。
 ![](attachments/vscins-5.png)
 
+8. 打开VSCode，点击左侧的“扩展”选项卡，在搜索框里搜索“C++”，然后安装下图所示的扩展插件。
 ![](attachments/vscconfig-1.png)
 
 ![](attachments/vscconfig-2.png)
 
+9. 可选：安装 C/C++ Extension Pack。
 ![](attachments/vscconfig-3.png)
 
-### 第 2 步：使用 MSYS2 安装 MinGW-w64 工具链 (编译需要)
+### 第 3 步：使用 MSYS2 安装 MinGW-w64 工具链 (编译需要)
 
 - [MSYS2 下载链接](https://github.com/msys2/msys2-installer/releases/download/2024-01-13/msys2-x86_64-20240113.exe)
 
@@ -74,13 +86,13 @@ math: katex
 2. 运行安装程序并按照安装向导的步骤进行操作。（注意，MSYS2 仅支持 64 位的 Windows 8.1 或更高版本。）
 ![](attachments/msys2ins-1.png)
 
-3. 在向导中，选择想要安装的文件夹位置，并记录该目录以备后用。大多数情况下，推荐的安装目录是合适的。
+3. 在向导中，选择想要安装的文件夹位置，并记录该目录以备后用（配置环境变量）。大多数情况下，推荐的安装目录是合适的。
 ![](attachments/msys2ins-2.png)
 
-4. 当进入设置开始菜单快捷方式的步骤时，同样使用默认选项。
+4. 进入设置开始菜单快捷方式的步骤，同样使用默认选项。
 ![](attachments/msys2ins-3.png)
 
-5. 安装进行中：
+5. 安装过程。
 ![](attachments/msys2ins-4.png)
 
 6. 安装完成后，确保“运行 MSYS2”选项已选中，然后点击“完成”。此操作将会打开一个 MSYS2 终端窗口。

@@ -63,6 +63,14 @@ g++ -std=c++20 main.cpp -o main
 > ./main.exe
 > ```
 
+![](attachments/lab5-1.png)
+
+![](attachments/lab5-2.png)
+
+![](attachments/lab5-3.png)
+
+![](attachments/lab5-4.png)
+
 ## Part 0: 阅读代码并完善 `Course` 结构体
 
 1. 在本次作业中，我们将使用 `Course` 结构体表示从 ExploreCourses 提取的数据记录。查看 `main.cpp` 中 `Course` 结构体的定义并补充字段的数据类型。最终我们将使用流生成 `Course` —— 还记得流处理哪些数据类型吗？
