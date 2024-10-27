@@ -5,6 +5,13 @@ parent: Labs
 math: katex
 ---
 # Lab 0: 配置 C++ 开发环境
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 - [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/) (Windows)
 	- 介绍 & 教程：[https://oi-wiki.org/tools/editor/devcpp/](https://oi-wiki.org/tools/editor/devcpp/)
@@ -17,7 +24,7 @@ math: katex
 
 ---
 
-## Windows
+## Windows (Lab 5 环境配置教程)
 
 ### 第 1 步：安装 Python (测试环境需要)
 
@@ -108,21 +115,23 @@ math: katex
    pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
    ```
 
-   按下 Enter 键，接受工具链组中默认的包数量。
-
 ![](attachments/mysys2config1.png)
+
+9. 按下 Enter 键，接受工具链组中默认的包数量。
 
 ![](attachments/mysys2config2.png)
 
-当提示是否继续安装时，输入 `Y` 并按下 Enter 键。
+10. 当提示是否继续安装时，输入 `Y` 并按下 Enter 键。
 
 ![](attachments/mysys2config3.png)
 
+11. MinGW-w64 工具链安装完成。
 ![](attachments/mysys2config4.png)
 
+12. 测试 Python 和 g++ 是否已经成功安装，并配置了环境变量。
 ![](attachments/mysys2config5.png)
 
-6. 将 MinGW-w64 的 `bin` 文件夹路径添加到 Windows 的 PATH 环境变量中，步骤如下：
+13. 将 MinGW-w64 的 `bin` 文件夹路径添加到 Windows 的 PATH 环境变量中，步骤如下：
 
    - 在 Windows 搜索栏中，输入“设置”以打开 Windows 设置。
    - 搜索“为您的帐户编辑环境变量”。
@@ -140,23 +149,8 @@ math: katex
 
 ![](attachments/msys2-path-5.png)
 
-### 检查 MinGW 安装是否成功
-
-要检查 MinGW-w64 工具是否正确安装并可用，可以打开一个新的命令提示符窗口并输入以下命令：
-
-```bash
-gcc --version
-g++ --version
-gdb --version
-```
-
-您应看到显示 GCC、g++ 和 GDB 的版本信息的输出。如果没有显示相应的输出，请检查以下问题：
-
-- 确保 PATH 变量的路径条目与 MinGW-w64 工具链的安装位置一致。如果该路径下不存在编译器，请确认您已按上述步骤正确安装。
-- 如果 `gcc` 有正确的输出但 `gdb` 没有，则您需要安装缺失的 MinGW-w64 工具包。
-- 如果在编译时出现“miDebuggerPath 的值无效”的消息，可能是您缺少 `mingw-w64-gdb` 包。
-
 ---
 
-Last Updated: Sat Oct 26 21:19:12 CST 2024
+Last Updated: Sun Oct 27 21:44:07 CST 2024
+
 
