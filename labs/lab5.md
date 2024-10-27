@@ -9,6 +9,11 @@ parent: Labs
 > 
 > Lab 5 的实验报告、程序代码的提交截止时间是：11.03 11:59 p.m. (周日)。
 
+{: .highlight-title}
+> 改编说明
+> 
+> Lab 5 改编自 [Stanford CS107L Standard C++ Programming Assignment 1](https://github.com/cs106l/cs106l-assignments/blob/main/assign1/README.md)，英文好的同学也可以直接阅读原作业文档。
+
 # Lab 5: SimpleEnroll \[[初始代码](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=q1UQP6vKHKwLn1f0m16ksqBonDVQrYKuWGPDyu750e01c8ESezenhm2m2wv94FFOk75&mode=file&display=list)\] \[实验报告\]
 {: .no_toc }
 
@@ -17,9 +22,6 @@ parent: Labs
 
 1. TOC
 {:toc}
-
-{: .highlight-title}
-> Lab 5 改编自 [Stanford CS107L Standard C++ Programming Assignment 1](https://github.com/cs106l/cs106l-assignments/blob/main/assign1/README.md)。
 
 ## 概览
 
@@ -32,43 +34,38 @@ parent: Labs
 * `main.cpp`：所有代码都写在这里 😀！
 * `utils.cpp`：包含一些实用函数。你需要使用此文件中的函数，但不需要修改它。
 
-请在标题处下载初始代码。
+**请在标题处下载初始代码。**
+
+本次实验提供了本地的自动打分程序，但是需要配置一下环境。如果你想要在本地测试自己的代码是否符合要求，请参考[这个文档](https://abotw.github.io/cpp/labs/lab0.html#windows-lab-5-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B)里的内容。
 
 ## 运行代码
 
-要运行代码，首先需要编译它。打开终端（如果使用VSCode，可以按 `Ctrl+\` 或点击顶部的 **Terminal > New Terminal**）。然后确保在 `lab5/` 目录下，执行以下命令：
+要运行代码，首先需要编译它。打开终端（如果使用VSCode，可以按 `Ctrl+Shift+\` 或点击顶部的 **Terminal > New Terminal**，或者是**终端 > 新终端**）。然后确保在 `lab5/` 目录下，执行以下命令：
 
 ```sh
-g++ -std=c++20 main.cpp -o main
+g++ -static-libstdc++ -std=c++20 main.cpp -o main
+
 ```
 
 假设代码没有编译错误，现在可以执行以下命令：
 
 ```sh
-./main
+./main.exe
 ```
 
 这将运行 `main.cpp` 中的 `main` 函数，执行代码并启动自动评分程序检查代码是否正确。
 
 在完成以下步骤时，建议不时地编译和使用自动评分程序，以确保进展顺利！
 
-> [!注意]  
-> ### Windows 提示
-> 在Windows系统中，可能需要使用以下命令编译代码：
-> ```sh
-> g++ -static-libstdc++ -std=c++20 main.cpp -o main
-> ```
-> 以查看输出。此外，生成的可执行文件可能名为 `main.exe`，此时需运行以下命令：
-> ```sh
-> ./main.exe
-> ```
-
+1. 打开Lab 5的实验文件夹：
 ![](attachments/lab5-1.png)
 
 ![](attachments/lab5-2.png)
 
+2. 打开终端窗口：
 ![](attachments/lab5-3.png)
 
+3. 输入相关命令，执行代码并启动自动评分程序检查代码是否正确：
 ![](attachments/lab5-4.png)
 
 ## Part 0: 阅读代码并完善 `Course` 结构体
@@ -95,7 +92,9 @@ g++ -std=c++20 main.cpp -o main
 
 OK，现在你已经有了一个 `courses` vector，里面存放了 `courses.csv` 文件中的所有记录，每条记录都存储在一个 `Course` 结构体中！假定你只对开设了的课程感兴趣。**如果某课程的 `quarter` 字段不等于字符串 `"null"`，则该课程已开设。** 在这个函数中，将所有 `quarter` 字段不为 `"null"` 的课程写入 `“student_output/courses_offered.csv”` 文件。
 
+{: .highlight-title}
 > [!重要]  
+> 
 > 在写入CSV文件时，请遵循以下格式：
 > 
 > `<Title>,<Number of Units>,<Quarter>`
@@ -126,7 +125,23 @@ Part 3 与 Part 2 类似，但更简单些。
 ## 提交链接
 
 1. [【实验报告】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfb2tm25Zjd0X0uAsRiqpcrH2O6n5PqoqlWRSkgAcqgKM3&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
+	1. 由于本次实验具有一定的难度，因此请大家在实验报告中详细记录自己的思路，以及解决问题的方式，并以此作为打分的主要依据。
+	2. 实验报告中贴出 `parse_csv`、`write_courses_offered` 和 `write_courses_not_offered` 3个函数的
 2. [【程序代码】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfTAEzDoECL5I0R6OoJbQHm2fN7UNyiYiv9Zd1kRm3yetgT&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
+	1. 请将初始代码的文件夹名称 `lab5` 更改为你的学号，并压缩为 .zip 文件提交。
+	2. 举例来说，如果你的学号是“24302081100”，则你需要提交的 .zip 文件的目录结构如下：
+
+```
+24302081100.zip
+├── README.md
+├── autograder
+├── courses.csv
+├── docs
+├── main.exe
+├── main.cpp
+├── student_output
+└── utils.cpp
+```
 
 ---
 
