@@ -68,6 +68,15 @@ int main()
 }
 ```
 
+## Const Correctness
+
+https://office365stanford-my.sharepoint.com/:p:/g/personal/jtrb_stanford_edu/EcOTbZkRMsFIgFur6awZ5NQBO2UIRPrsMSgIup-mtIVU4Q?e=12NGjf
+
+### Let’s use our Vector class!
+
+```
+```
+
 ---
 
 Last Updated: Fri Oct 25 09:47:44 CST 2024
