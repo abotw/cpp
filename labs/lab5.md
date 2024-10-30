@@ -36,7 +36,7 @@ parent: Labs
 
 **请在标题处下载初始代码。**
 
-本次实验提供了本地的自动打分程序，但是需要配置一下环境。如果你想要在本地测试自己的代码是否符合要求，请参考[这个文档](https://abotw.github.io/cpp/labs/lab0.html#windows-lab-5-%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B)里的内容。
+本次实验提供了本地的自动打分程序，但是需要配置一下环境。如果你想要在本地测试自己的代码是否符合要求，请参考[这个文档](https://abotw.github.io/cpp/labs/lab0.html#lab-5-%E6%9C%AC%E5%9C%B0%E6%89%93%E5%88%86%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B-windows)里的内容。
 
 ## 运行代码
 
