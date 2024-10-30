@@ -62,6 +62,7 @@ math: katex
 5. 配置项，建议全部勾选：
    ![](attachments/vscins-4.png)
 6. 安装成功。
+   
    ![](attachments/vscins-5.png)
 7. 打开VSCode，点击左侧的“扩展”选项卡，在搜索框里搜索“C++”，然后安装下图所示的扩展插件。
    ![](attachments/vscconfig-1.png)
