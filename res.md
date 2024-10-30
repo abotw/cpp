@@ -1,8 +1,15 @@
 ---
 title: Resources
-layout: home
+layout: page
 ---
 # Resources, 课程资源
+{: .no_toc }
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ## 0. Cheatsheets, 速查卡
 

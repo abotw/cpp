@@ -1,6 +1,6 @@
 ---
 title: Textbooks
-layout: home
+layout: page
 ---
 # Textbooks, 教材
 {: .no_toc }

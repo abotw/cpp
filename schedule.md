@@ -1,6 +1,6 @@
 ---
 title: Schedule
-layout: home
+layout: page
 ---
 # Schedule, 学期日程
 
