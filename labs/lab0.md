@@ -33,28 +33,17 @@ math: katex
 ---
 
 1. 点击上方下载链接，在页面的最下方选择对应的版本进行下载，一般是 `Windows installer (64-bit)`。
-
-![](attachments/Pasted%20image%2020241027093718.png)
-
+   ![](attachments/Pasted%20image%2020241027093718.png)
 2. 下载完成后，双击如下安装向导：
-
-![](attachments/pyexe.png)
-
+   ![](attachments/pyexe.png)
 3. 首先勾选 “Use admin privileges when installing py.exe”（可选）和 “Add python.exe to PATH”（必选）。然后单击“Install Now”，安装到默认位置。也可以根据自己的情况，自定义安装的位置和其他选项。
-
-![](attachments/pyins-1.png)
-
+   ![](attachments/pyins-1.png)
 4. 安装过程：
-
-![](attachments/pyins-2.png)
-
+   ![](attachments/pyins-2.png)
 5. 成功安装后会显示如下界面：
-
-![](attachments/pyins-3.png)
-
+   ![](attachments/pyins-3.png)
 6. 打开 cmd，输入 `python` ，如果出现 `>>>` 则表示 Python 已经成功安装。随后关闭 cmd 即可。
-
-![](attachments/pyfin.png)
+   ![](attachments/pyfin.png)
 
 ### 第 2 步：安装 VSCode (方便执行编译命令)
 
