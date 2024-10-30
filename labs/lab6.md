@@ -4,7 +4,7 @@ layout: page
 parent: Labs
 ---
 
-# Lab 6: C++综合设计 \[[实验报告](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=T3ZGdm1D9Ga7GGgFTwAkDZzm2qsNsb5TMM7HNEz6tquNdMMgTqYm1m38WkeTlqKMbEEj&mode=file&display=list)\]
+# Lab 6: C++综合设计 \[[实验报告](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=T3ZGdm1D9Ga7GGgFTwAkDZzK7BqDkLuSwIhRRfIZPm3CShl3xCEWu2p5UNuSoFBt19&mode=file&display=list)\]
 {: .no_toc }
 
 ## Table of Contents
