@@ -1,6 +1,6 @@
 ---
 title: "Lab 4: C++类的构建 2"
-layout: home
+layout: page
 parent: Labs
 ---
 

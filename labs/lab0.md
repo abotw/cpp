@@ -1,6 +1,6 @@
 ---
 title: "Lab 0: 配置 C++ 开发环境"
-layout: home
+layout: page
 parent: Labs
 math: katex
 ---

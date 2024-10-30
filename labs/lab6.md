@@ -1,6 +1,6 @@
 ---
 title: "Lab 6: C++综合设计"
-layout: home
+layout: page
 parent: Labs
 ---
 
@@ -17,14 +17,13 @@ parent: Labs
 
 题目自选，利用所学知识构建一个完整的 C++ 程序。
 
-## 提交说明
+## 🧾 提交清单
 
-🧾 提交清单如下：
-
-1. 综合实验报告书（纸质版） x1
-2. 综合实验报告书（电子版） x1
-	-  [【实验报告】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfUiaxvKH2i7wR8x6O7pxm2156tPY4bRSlsOAYTQJntZiN&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
-3. 程序源代码（电子版） x1
+1. 综合实验报告书
+	- 纸质版 x1
+	- 电子版 x1: [【综合实验报告书】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfUiaxvKH2i7wR8x6O7pxm2156tPY4bRSlsOAYTQJntZiN&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
+2. 程序源代码（电子版） x1
+	- 以学号命名，压缩为 .zip 文件，如 `24302081100.zip`
 	-  [【程序代码】提交链接](https://znas.cn/AppH5/share/collection?code=6lX86Ttcl3LxvVEw0FgZfRwYZjK8m1KAtFt8KxxXvT5ym1jQSPdV9xGCL1bOW2cVUk&nid=KEYDEMJQGA2DCRKHGJBTS&mode=file&display=list&type=3)
 
 ## 报告格式

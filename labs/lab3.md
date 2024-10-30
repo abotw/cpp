@@ -1,6 +1,6 @@
 ---
 title: "Lab 3: C++类的构建"
-layout: home
+layout: page
 parent: Labs
 ---
 {: .warning-title }

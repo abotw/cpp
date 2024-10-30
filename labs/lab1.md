@@ -1,6 +1,6 @@
 ---
 title: "Lab 1: C++语法基础"
-layout: home
+layout: page
 parent: Labs
 math: katex
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Lab 2: C++循环"
-layout: home
+layout: page
 parent: Labs
 ---
 
