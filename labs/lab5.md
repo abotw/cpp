@@ -143,31 +143,44 @@ Part 3 与 Part 2 类似，但更简单些。
 
 ## 参考资料
 
+### New Features in C++11, C++11 的新特性
+
 ![](attachments/r2-02.png)
 
 ![](attachments/r2-03.png)
 
+### C++ I/O Streams, C++ 输入输出流
+
 ![](attachments/r2-04.png)
+
+### Member Functions, I/O 成员函数
 
 ![](attachments/r2-06.png)
 
-
+### File Access, 文件访问
 
 ![](attachments/r2-07.png)
+
+### C++ String Class, C++ 字符串类
 
 ![](attachments/r2-08.png)
 
 ![](attachments/r2-09.png)
 
+### String stream Input and Output, 字符串输入输出流
+
 ![](attachments/r2-11.png)
 
+### STL Vector Container, STL Vector 容器
 
 
 ![](attachments/r3-02.png)
 
 ---
 
-Last Updated: Wed Oct 30 21:54:16 CST 2024
+Last Updated: Wed Oct 30 21:59:11 CST 2024
+
+
 
 
 
