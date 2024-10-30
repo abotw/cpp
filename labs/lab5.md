@@ -141,9 +141,34 @@ Part 3 与 Part 2 类似，但更简单些。
 └── utils.cpp
 ```
 
+## 参考资料
+
+![](attachments/r2-02.png)
+
+![](attachments/r2-03.png)
+
+![](attachments/r2-04.png)
+
+![](attachments/r2-06.png)
+
+
+
+![](attachments/r2-07.png)
+
+![](attachments/r2-08.png)
+
+![](attachments/r2-09.png)
+
+![](attachments/r2-11.png)
+
+
+
+![](attachments/r3-02.png)
+
 ---
 
-Last Updated: Wed Oct 30 12:16:16 CST 2024
+Last Updated: Wed Oct 30 21:54:16 CST 2024
+
 
 
 
