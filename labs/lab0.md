@@ -96,26 +96,33 @@ math: katex
 9. 按下 Enter 键，接受工具链组中默认的包数量。
    ![](attachments/mysys2config2.png)
 10. 当提示是否继续安装时，输入 `Y` 并按下 Enter 键。
+    
     ![](attachments/mysys2config3.png)
 11. MinGW-w64 工具链安装完成。
+    
     ![](attachments/mysys2config4.png)
 12. 测试 Python 和 g++ 是否已经成功安装，并配置了环境变量。
+    
     ![](attachments/mysys2config5.png)
 13. 将 MinGW-w64 的 `bin` 文件夹路径添加到 Windows 的 PATH 环境变量中，步骤如下：
+    
     ![](attachments/msys2-path-1.png)
     ![](attachments/msys2-path-2.png)
 	   - 在 Windows 搜索栏中，输入“设置”以打开 Windows 设置。
 	   - 搜索“为您的帐户编辑环境变量”。
+	     
 	     ![](attachments/msys2-path-3.png)
 	   - 在“用户变量”中，选择 Path 变量，然后点击“编辑”。
 	     ![](attachments/msys2-path-4.png)
 	   - 点击“新建”，并将安装过程记录的 MinGW-w64 路径添加到列表中。如果您使用了默认设置，路径为：`C:\msys64\ucrt64\bin`。
+	     
 	     ![](attachments/msys2-path-5.png)
 	   - 点击“确定”，然后再次点击“确定”以更新 PATH 环境变量。请重新打开所有控制台窗口，使更新后的 PATH 环境变量生效。
 
 ---
 
-Last Updated: Wed Oct 30 11:52:42 CST 2024
+Last Updated: Wed Oct 30 12:16:09 CST 2024
+
 
 
 

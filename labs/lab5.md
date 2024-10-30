@@ -56,16 +56,13 @@ g++ -static-libstdc++ -std=c++20 main.cpp -o main
 
 在完成以下步骤时，建议不时地编译和使用自动评分程序，以确保进展顺利！
 
-打开Lab 5的实验文件夹：
-![](attachments/lab5-1.png)
-
-![](attachments/lab5-2.png)
-
-打开终端窗口：
-![](attachments/lab5-3.png)
-
-输入相关命令，执行代码并启动自动评分程序检查代码是否正确：
-![](attachments/lab5-4.png)
+1. 打开Lab 5的实验文件夹：
+   ![](attachments/lab5-1.png)
+   ![](attachments/lab5-2.png)
+2. 打开终端窗口：
+   ![](attachments/lab5-3.png)
+3. 输入相关命令，执行代码并启动自动评分程序检查代码是否正确：
+   ![](attachments/lab5-4.png)
 
 ## Part 0: 阅读代码并完善 `Course` 结构体
 
@@ -146,7 +143,8 @@ Part 3 与 Part 2 类似，但更简单些。
 
 ---
 
-Last Updated: Sun Oct 27 22:34:28 CST 2024
+Last Updated: Wed Oct 30 12:16:16 CST 2024
+
 
 
 
