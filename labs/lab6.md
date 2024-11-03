@@ -10,9 +10,8 @@ parent: Labs
 > 11.30 12:00 a.m. (本月月底，周六中午之前)
 
 # Lab 6: C++综合设计 \[[实验报告](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=T3ZGdm1D9Ga7GGgFTwAkDZxAkgRgiJbkgX5itqm2hke0FF3vJMFHdKYflc6RaM83kn&mode=file&display=list)\]
-\[[PDF](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=T3ZGdm1D9Ga7GGgFTwAkDZ0iOm3MJNFQGIZfem1wtpOc4VV1VNnOQt3RxZx3yuNw2A9&mode=file&display=list)\]
-
 {: .no_toc }
+\[[PDF](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=T3ZGdm1D9Ga7GGgFTwAkDZ0iOm3MJNFQGIZfem1wtpOc4VV1VNnOQt3RxZx3yuNw2A9&mode=file&display=list)\]
 
 ## Table of Contents
 {: .no_toc .text-delta }
