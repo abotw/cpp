@@ -7,7 +7,7 @@ parent: Labs
 {: .warning-title }
 > 提交截止时间
 > 
-> 11.30 12:00 a.m. (本月月底，周六中午之前)
+> 11.29 18:00 a.m. (第13周周五放学之前)
 
 # Lab 6: C++综合设计 \[[实验报告](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=T3ZGdm1D9Ga7GGgFTwAkDZxAkgRgiJbkgX5itqm2hke0FF3vJMFHdKYflc6RaM83kn&mode=file&display=list)\]
 {: .no_toc }
@@ -71,7 +71,8 @@ parent: Labs
 
 ---
 
-Last Updated: Sun Nov  3 19:46:50 CST 2024
+Last Updated: Sun Nov  3 19:54:50 CST 2024
+
 
 
 
