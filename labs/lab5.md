@@ -7,7 +7,7 @@ parent: Labs
 {: .warning-title }
 > 截止时间
 > 
-> Lab 5 的实验报告、程序代码的提交截止时间是：11.03 11:59 p.m. (周日)。
+> 11.10 12:00 a.m. (本周周日中午之前)
 
 {: .highlight-title}
 > 改编说明
@@ -178,7 +178,8 @@ Part 3 与 Part 2 类似，但更简单些。
 
 ---
 
-Last Updated: Wed Oct 30 21:59:11 CST 2024
+Last Updated: Sun Nov  3 19:48:10 CST 2024
+
 
 
 

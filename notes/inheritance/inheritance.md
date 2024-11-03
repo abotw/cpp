@@ -16,6 +16,7 @@ parent: Notes
 ## Readings
 
 - Slide: <https://web.stanford.edu/class/cs106l/lectures/F2407_Classes.pdf>
+- https://cse.engineering.nyu.edu/jsterling/cs2124/LectureNotes/04.Inheritance.html
 
 ---
 
@@ -109,7 +110,7 @@ private: double _width, _height;
 | Public Members    | Are public in the derived class | Protected in the derived class  | Private in the derived class    |
 | Protected menbers | Protected in the derived class  | Protected in the derived class  | Private in the derived class    |
 | Private Members   | Not accessible in derived class | Not accessible in derived class | Not accessible in derived class |
-|                   | 大家都能用                           | 家里可以用                           | 只能自己用                           |
+|                   | 大家都能用                           | 一家人都可以用（父子都能用）                  | 只能自己用（儿子不能用）                    |
 
 ## Person class
 
@@ -202,6 +203,28 @@ public:
 ![](./attachments/Pasted%20image%2020241016173402.png)
 
 - **This requires the derived class to initialize the base class!**
+
+## TODO
+
+https://icarus.cs.weber.edu/~dab/cs1410/textbook/10.Multiclass_Programs/inheritance.html
+
+![](attachments/Pasted%20image%2020241031084912.png)
+
+### Generalization
+
+![](attachments/Pasted%20image%2020241031085121.png)
+
+![](attachments/Pasted%20image%2020241031085127.png)
+
+## protected constrcutor
+
+## other stuff
+
+- 继承父类的时候，使用父类的构造函数，必须使用初始化列表的方式
+	- 如果采用的是在花括号中显式调用，那么编译器会将其忽略，从而执行默认的无参构造函数，而花括号内部的构造函数则会被忽略
+	- 没被构造，则显示随机的值
+
+
 
 ---
 
