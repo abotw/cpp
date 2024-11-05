@@ -19,6 +19,42 @@ parent: Notes
 - Input and output streams on the same source/destination type compliment each other!
 - Don’t use `getline()` and `std::cin()` together, unless you *really really* have to!
 
+## I/O 基本概念
+
+![](jypan/cpp07_IO/cpp07_IO-04.png)
+
+## 输入输出操作
+
+![](jypan/cpp07_IO/cpp07_IO-05.png)
+
+## 操纵符
+
+![](jypan/cpp07_IO/cpp07_IO-06.png)
+
+### 操纵符（域宽）
+
+![](jypan/cpp07_IO/cpp07_IO-07.png)
+
+### 操纵符（填充符）
+
+![](jypan/cpp07_IO/cpp07_IO-08.png)
+
+### 操纵符（对齐方式）
+
+![](jypan/cpp07_IO/cpp07_IO-09.png)
+
+### 操纵符（浮点数输出格式）
+
+![](jypan/cpp07_IO/cpp07_IO-10.png)
+
+### 操纵符（浮点数精度）
+
+![](jypan/cpp07_IO/cpp07_IO-11.png)
+
+### 操纵符等价用法
+
+![](jypan/cpp07_IO/cpp07_IO-12.png)
+
 ## Readings
 
 ![](attachments/04_Streams-011.png)
@@ -51,6 +87,7 @@ parent: Notes
 ![](attachments/04_Streams-024.png)
 
 ## An Input Stream
+
 
 ![](attachments/04_Streams-029.png)
 
@@ -484,6 +521,14 @@ cin >> variable;
 
 ---
 
+![](jypan/cpp07_IO/cpp07_IO-14.png)
+
+![](jypan/cpp07_IO/cpp07_IO-15.png)
+
+![](jypan/cpp07_IO/cpp07_IO-16.png)
+
+---
+
 ```cpp
 #include <iostream>
 #include <cstdio> // 使用`printf`时最好添加头文件 `#include <cstdio>`
@@ -689,6 +734,23 @@ int main()
     return 0;
 }
 ```
+
+## C 语言文件读写
+
+![](jypan/cpp07_IO/cpp07_IO-18.png)
+
+![](jypan/cpp07_IO/cpp07_IO-19.png)
+
+![](jypan/cpp07_IO/cpp07_IO-20.png)
+
+![](jypan/cpp07_IO/cpp07_IO-21.png)
+
+![](jypan/cpp07_IO/cpp07_IO-22.png)
+
+![](jypan/cpp07_IO/cpp07_IO-23.png)
+
+![](jypan/cpp07_IO/cpp07_IO-24.png)
+
 
 ---
 
