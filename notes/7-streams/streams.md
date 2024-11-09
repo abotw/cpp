@@ -754,6 +754,150 @@ int main()
 
 ---
 
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	ofstream ofs;
+	ofs.open("info.txt");
+
+	ofs << "姓名：张三\n";
+	ofs << "性别：男\n";
+	ofs << "年龄：18\n";
+
+	ofs.close();
+	
+	return 0;
+}
+```
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	int a;
+	ifstream ifs;
+	ifs.open("info.txt");
+	if (!ifs) {
+		cout << "Error\n";
+		exit(1);
+	}
+	while (ifs >> a) {
+		cout << a << ' ';
+	}
+
+	return 0;
+}
+```
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	int a, b, c;
+	ifstream ifs("input.txt");
+	ofstream ofs("output.txt");
+	for (int i = 1; i <= 5; i++) {
+		ifs >> a >> b;
+		c = a * b;
+		ofs << c << '\n';
+	}
+	ifs.close();
+	ofs.close();
+
+	return 0;
+}
+```
+
+```cpp
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+	int a[10];
+	ifstream ifs("input.txt");
+	ofstream ofs("output.txt");
+	
+	ifs.close();
+	ofs.close();
+
+	return 0;
+}
+```
+
+```cpp
+fstream ifs, ofs;
+ifs.open("input.txt", ios::in);
+ofs.open("output.txt", ios::out);
+
+ifs >> a;
+ofs << a;
+```
+
+```cpp
+ios::in
+ios::out
+ios::ate
+ios::app
+ios::binary
+
+ios::binary | ios::out
+```
+
+`app` comes from 'append' - all output will be added (appended) to the end of the file. In other words you cannot write anywhere else in the file but at the end.
+
+`ate` comes from 'at end' - it sets the stream position at the end of the file when you open it, but you are free to move it around (seek) and write wherever it pleases you.
+
+---
+
+## 打开二进制文件
+
+```cpp
+ostream& write(const char* buffer, int len);
+```
+
+```cpp
+class Person
+{
+public:
+	char m_Name[64];
+	int m_age;
+};
+
+int main()
+{
+	ofstream ofs("person.txt", ios::out | ios::binary);
+	Person p = {"张三", 18};
+	ofs.write((char*)&p, sizeof(p));
+	ofs.close();
+	return 0;
+}
+```
+
+## 移动文件指针
+
+```cpp
+ifs.seekg(int, ios::_dir)
+// int: moved bytes
+// ios::_dir: relative position
+//   beg
+//   cur
+//   end
+```
+
+---
+
 Last Updated: Sat Oct  5 13:17:03 CST 2024
 
 

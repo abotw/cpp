@@ -1,10 +1,13 @@
 ---
+aliases:
+  - STL
+  - Standard Template Library
 title: STL
 layout: home
 parent: Notes
 ---
 
-# STL
+# STL (Standard Template Library)
 {: .no_toc }
 
 ## Table of Contents
@@ -13,10 +16,63 @@ parent: Notes
 1. TOC
 {:toc}
 
-- Q: 为什么要用 STL (Standard Template Library)？
+---
+
+- Q: WHY STL?
 - A: 为了提高编程效率。
 
-- 容器
+## STL
+
+The STL is a C++ library that provides a set of easily **composable C++ container classes** (container, collection) and **generic algorithms (template functions)**.
+
+- The container classes include:
+	- Sequence Containers (objects that store collections of other objects strictly
+	- in a linear arrangement):
+		- vector - indexable sequence of items (like an array)
+		- list   - singly and doubly linked
+		- stack  - always insert (called push) and remove (called pop) at the same end
+		- queue  - always insert at one end (the rear), remove from the other end 
+		- deque  - double-ended queue, insert/remove at either end
+	- Associative Containers (non-linear - supports efficient retrieval; supports
+	- insertion and removal of elements, but differs from a Sequence in that it
+	- does not provide insertion of an element at a specific position):
+		- set - unique key (item is in once)
+		- multiset - allows duplicate keys/items
+		- priority queue
+		- map - mapping of unique key/value pairs (given a key, it produces a value)
+		- multimap - duplicate copies of the same key 
+
+Iterators for the containers include forward, bidirectional, random access.
+They include (although not all have all) the common operations of <, >, etc.
+
+The generic algorithms include many common tasks, e.g., searching, sorting,
+merging, copying, etc.
+
+from <https://courses.washington.edu/css342/zander/Notes/template>
+
+## Iterators, 迭代器
+
+- Definition: Iterators are a software design pattern that abstracts the process of traversing through a collection of items.
+- Note: `vector[i]` or `array[i]` can be considered as a primitive iterator
+- An iterator should include 
+	- Current position
+	- Retrieval of the current item
+	- Stepping to the next position (forward or backward)
+
+from <https://courses.washington.edu/css342/zander/Notes/template>
+
+- Iterator categories
+	- Forward: for one-directional traversal of a sequence, expressed with `++`
+	- Bidirectional: traversal in both directions, expressed with `++` and `--`
+	- Random access: for bidirectional traversal
+		- long jumps: `r += n` and `r -= n`
+		- addition and substraction: `r + n` and `r - n`
+		- iterator subtraction: `r - s` where `s`  is another random access iterator
+		- comparisons: `r<s`, `r>s`, `r<=s`, `r>=s` 
+		- equality: `==` and `!=`
+		- dereferencing: use `*`
+
+from <https://courses.washington.edu/css342/zander/Notes/stl>
 
 ## `<vector>`
 
@@ -24,7 +80,7 @@ parent: Notes
 - 支持随机访问，不支持在任意位置 O(1) 插入
 - 为了保证效率，元素的增删一般应该在末尾进行
 
-![](vector.png)
+![](attachments/vector.png)
 
 - `size()`, `isEmpty()`: O(1)
 - `front()`: 返回 `vector` 的第一个元素
@@ -76,11 +132,11 @@ for (vector<int>::iterator it = a.begin(); it != a.end(); it ++)
 
 ## `<stack>`
 
-![](stack.png)
+![](attachments/stack.png)
 
 ## `<queue>`
 
-![](queue.png)
+![](attachments/queue.png)
 
 1. 循环队列 `queue` 
 2. 优先队列 `priority_queue` 
@@ -187,7 +243,7 @@ multiset<double> s;
 
 ## `<map>`
 
-![](map.png)
+![](attachments/map.png)
 
 map容器是一个键值对key-value的映射，其内部实现是一棵以key为关键码的红黑树。Map的key和value可以是任意类型，其中key必须定义小于号运算符。
 
@@ -227,7 +283,7 @@ h[key]返回key映射的value的引用，时间复杂度为 O(logn)
 
 ## `<grid>`
 
-![](grid.png)
+![](attachments/grid.png)
 
 ## Readings
 
