@@ -14,7 +14,7 @@ parent: Labs
 > 
 > Lab 5 改编自 [Stanford CS107L Standard C++ Programming Assignment 1](https://github.com/cs106l/cs106l-assignments/blob/main/assign1/README.md)，英文好的同学也可以直接阅读原作业文档。
 
-# Lab 5: SimpleEnroll \[[初始代码](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=q1UQP6vKHKwLn1f0m16ksqBonDVQrYKuWGPDyu750e01c8ESezenhm2m2wv94FFOk75&mode=file&display=list)\] \[[实验报告](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=T3ZGdm1D9Ga7GGgFTwAkDZm3NHsG36MW00c6WgpjQLo8JuUTnSg2DD9K0i2ORJdym3d&mode=file&display=list)\]
+# Lab 5: SimpleEnroll \[[初始代码](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=q1UQP6vKHKwLn1f0m16ksqBonDVQrYKuWGPDyu750e01c8ESezenhm2m2wv94FFOk75&mode=file&display=list)\] \[[实验报告](https://znas.cn/AppH5/share/?nid=KEYDEMJQGA2DCRKHGJBTS&code=uEK1yAOuBcP3YSJpSsAgIDm3QlzvxUEk3OJm3m1ixekIym1ndjm3JgS1Wv3Ler8LpYN5X&mode=file&display=list)\]
 {: .no_toc }
 
 ## Table of Contents
