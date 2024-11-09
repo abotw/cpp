@@ -13,6 +13,8 @@ layout: page
 {:toc}
 
 -   [Eric S. Roberts.Programming Abstractions in C++[M].](https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/resources/textbook.html)
+	- [res1](https://www.pearsonhighered.com/educator/product/Programming-Abstractions-in-C/9780133454840.page#resources)
+	- [res2](https://media.pearsoncmg.com/ph/wps-wraps/ecs_roberts_pacpp/cw/)
 
 <div>
 	<a href="https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1252/resources/textbook.html">
